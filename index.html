@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Webpage for Arts and Design</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+   <meta charset="UTF-8" name="viewport" content="width:device-width, initial-scale=1"/>
+   <link rel="stylesheet" type="text/css" href="style.css"/>
+
+     <script type="text/javascript">
+    //javascript code.... 
+         function backTotop() {
+             document.documentElement.scrollTop=0; 
+         }
+   </script>
+</head>
+<body>
+     <section class="sub-header">
+          
+          <nav>  
+             <a href="index.html" class="logo">BeyArt</a>
+             <div class="nav-links" id="nav-links">
+                   <i class="fa fa-arrow-left" onclick="hideMenu()"></i>
+                    <ul>
+                       <li><a href="index.html" class="active">Home</a></li>
+                       <li><a href="blog.html">Blog</a></li>
+                       <li><a href="services.html">Services</a></li>
+                       <li><a href="contact.html">Contact Us</a></li>
+                       <li><a href="about.html">About Us</a></li>
+                    </ul>
+             </div>
+             <i class="fa fa-bars" onclick="showMenu()"></i> 
+        </nav>
+         <h1>Home</h1>
+     </section> 
+     <section class="welcome-note">
+             <h1>Welcome to World of Art</h1>
+             
+              <span>
+              
+              <p>Our deepest fear is not that we are inadequate. Our deepest fear is that we are powerful beyond measure. 
+              It is our light, not our darkness, that most frightens us.— Marianne Williamson</p>
+              </span>
+     </section>
+     <section class="cnt">
+           <h1>Get our services today,<br>we offer the best.</h1>
+           <a href="services.html" class="visit-button">See Our Services</a> 
+     </section>
+           
+     <section class="footer">
+            <h4>About Us</h4>
+            <p>Our mission is to provide quality services to our customers. <br>
+                 We value diversity and inclusion</p>
+            <div class="icons">
+                 <i class="fa fa-facebook"></i>
+                 <i class="fa fa-twitter"></i>
+                 <i class="fa fa-instagram"></i>
+                 <i class="fa fa-linkedin"></i>
+             </div>
+             <p>© 2021-2022 beyart | All Rights reserved.</p>
+     </section>
+     <script type="text/javascript">
+           var navLinks=document.getElementById("nav-links");
+           function showMenu(){
+              navLinks.style.display="block";
+           }
+           function hideMenu(){
+              navLinks.style.display="none";
+           }
+     </script>
+           
+</body>
+</html>
