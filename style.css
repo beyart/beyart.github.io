@@ -69,6 +69,7 @@
           display:block;
           margin:auto;
           transition:0.5s;
+
        }
         
        .logo{
@@ -135,6 +136,8 @@
               height:auto;
               text-align:left;
               display:none;
+              box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+              border-radius:5px;
             }
             nav .fa{
                display:block;
