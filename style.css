@@ -73,7 +73,7 @@
        .welcome-note{
           width:80%;
           margin:60px auto;
-          
+          border:1px solid #000; 
        }
         .welcome-note h1{
           font-size:36px;
