@@ -6,31 +6,25 @@
           margin:0;
           padding:0;
        }
+        .sub-header{
+           height:50vh;
+           width:100%;
+           /*background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("city.jpg");
+           background-size:cover;
+           background-position:center;*/
+           background:#000; 
+       }
+       .sub-header h1{
+          display:none;
+          margin-top:30px;
+          text-align:center;
+       }
         
-       .header{
-          min-height:50vh;
-          width:100%;
-          background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("foresty.jpg");
-          background-size:cover;
-          background-position:center;
-          position:relative;
-          
-       }
-       .header h1{
-         color:#fff; 
-         text-align:center;
-         margin-top:80px;
-         font-size:24px;
-       }
        nav{
           display:flex;
           padding:2% 6%;
           justify-content:space-between; 
           text-align:center;
-       }
-        .img{
-          margin-left:2px;
-
        }
        
        .nav-links{
@@ -73,8 +67,8 @@
           color:#f44336;
           text-decoration:none;
           font-weight:600;
-          padding:0;
-          font-size:22px;
+          margin:10px;
+          font-size:small;
        }
        .welcome-note{
           width:80%;
@@ -113,6 +107,20 @@
         nav .fa{
            display:none;
        }
+       .largescreen .fa{
+          color:#fff; 
+          margin-right:150px;
+          margin-top:15px;
+          float:right;
+          font-size:22px;
+       }
+       .imgx{
+         height:50px;
+         width:150px;
+         position:absolute;
+         top:5px;
+         left:150px;
+      }
        @media(max-width:780px){
             *{
               box-sizing:border-box; 
@@ -128,23 +136,30 @@
             }
             .nav-links{
               position:absolute;
-              top:5px;
-              right:5px;
-              background:#f44336; 
+              top:0;
+              left:0;
+              background:#333; 
               z-index:2;
               width:200px;
               height:auto;
               text-align:left;
               display:none;
               box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
-              border-radius:5px;
+              border-radius:;
+              
+            }
+            .nav-links li{
+              border-bottom:1px solid #fff; 
+             }
+            .nav-links li:last-child{
+              border-bottom:none;
             }
             nav .fa{
                display:block;
-               color:#fff; 
+               color:white; 
+               font-size:22px; 
                float:left; 
                margin:10px;
-               font-size:22px;
                cursor:pointer;
             }
             .nav-links ul{
@@ -172,7 +187,7 @@
             .contact-col div h6{
               font-size:14px;
             }
-            .contact-col div .fa{
+            .contact-col div .glyphicon{
               font-size:15px;
               margin:5px;
               margin-right:10px;
@@ -203,6 +218,14 @@
             .footer p{
              color:#fff; 
              font-size:12px;
+           }
+           .sub-header{
+             height:20vh;
+             width:100%;
+             background:#000;
+           }
+           .largescreen .fa{
+             display:none;
            }
        }
        .services{
@@ -270,7 +293,7 @@
        .cnt{
           margin:60px auto; 
           width:80%;
-          background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("python.jpg");
+          background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("city.jpg");
           background-size:cover;
           background-position:center;
           border-radius:10px;
@@ -304,24 +327,14 @@
           text-decoration:underline;
           color:#fff; 
        }
+       
        .icons .fa{
            color:#fff;
            margin:0 13px;
            padding:18px 0; 
-           cursor:pointer:
+           cursor:pointer;
        }
-       .sub-header{
-           height:50vh;
-           width:100%;
-           background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("city.jpg");
-           background-size:cover;
-           background-position:center;
-           color:#fff; 
-       }
-       .sub-header h1{
-          margin-top:46px;
-          text-align:center;
-       }
+       
        .about-us{
           width:80%;
           margin:auto;
@@ -366,21 +379,27 @@
        .blog-left h1{
           color:#222:;
           font-weight:600;
-          margin:30px 0;
+          margin:0;
+          padding:0;
        }
        .blog-left p{
          color:#999;
          padding:0;
        }
+       .blog-left video{
+         max-width:100%;
+         height:auto;
+       }
        .blog-right{
          flex-basis:32%;
+         margin-top:10px
        }
        .blog-right h4{
           color:white;
           background:red;
           padding:7px 0;
           margin-bottom:20px;
-          margin-top:0;
+          margin-top:0px;
           font-size:16px;
           text-align:center;
        }
@@ -390,6 +409,7 @@
           text-align:center;
           justify-content:space-between; 
           color:#555;
+       
        }
        .contact-box{
           border:1px solid #ccc; 
@@ -475,11 +495,11 @@
       .policy1{
          display:flex;  
       }
-      .policy1 .fa{
+      .policy .fa{
          font-weight:300; 
          font-size:22px ;
          color:#000; 
-         padding:10px ; 
+         padding:10px ;
       }
       
       .policy1 .fa:hover{

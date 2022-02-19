@@ -17,7 +17,8 @@
 <body>
      <section class="sub-header">
           <nav>
-             <a href="index.html" class="logo">BeyArt</a>
+             <i class="fa fa-bars" onclick="showMenu()"></i>
+              
              <div class="nav-links" id="nav-links">
                    <i class="fa fa-angle-left" onclick="hideMenu()"></i>
                     <ul>
@@ -28,22 +29,24 @@
                        <li><a href="about.html">About Us</a></li>
                     </ul>
              </div>
-             <i class="fa fa-bars" onclick="showMenu()"></i>
+          
         </nav>
+        <a href="index.html" class="logo"><img src="logo.jpg" class="imgx"/></a>
         <h1>Latest News on Art</h1>
+         
      </section> 
      <section class="blog-content">
              <div class="row">
                 <div class="blog-left">
-                   <img src="budded_orange.jpg"/>
                    <h1>Latest news on Plants</h1>
                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis interdum dignissim nisl posuere efficitur. 
                    Suspendisse sit amet lorem scelerisque, pellentesque mauris at, blandit arcu.</p>
+                   <img src="budded_orange.jpg"/>
                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis interdum dignissim nisl posuere efficitur. 
                    Suspendisse sit amet lorem scelerisque, pellentesque mauris at, blandit arcu.</p>
                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis interdum dignissim nisl posuere efficitur. 
                    Suspendisse sit amet lorem scelerisque, pellentesque mauris at, blandit arcu.</p>
-                   
+                   <!--<video src="rick_art.mp4" controls preload loop poster="poster.jpg"></video>-->
                    <div class="contact-box">
                        <h3>Leave a comment</h3>
                        <form action="#" method="POST" class="contact-form">
@@ -85,10 +88,10 @@
               <p><a href="Policy_privacy.html">Policy & Privacy</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">Terms of Use</a><p/>
             </div>
             <div class="icons">
-                  <a href="www.facebook.com/fred Rick"><i class="fa fa-facebook"></i></a>
-                  <a href="www.twitter.com"><i class="fa fa-twitter"></i></a>
-                  <a href="#"><i class="fa fa-instagram"></i></a>
-                  <a href="#"><i class="fa fa-linkedin"></i></a>
+                 <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+                 <a href="#"><i class="fa fa-twitter"></i></a>
+                 <a href="#"><i class="fa fa-instagram"></i></a>
+                 <a href="#"><i class="fa fa-linkedin"></i></a>
              </div>
              <p>© 2021-2022 beyart | All Rights reserved.</p>
      </section>
@@ -102,100 +105,6 @@
            }
          
      </script>
-          <script>
-            function postReply(commentId) {
-                $('#commentId').val(commentId);
-                $("#name").focus();
-            }
-
-            $("#submitButton").click(function () {
-            	   $("#comment-message").css('display', 'none');
-                var str = $("#frm-comment").serialize();
-
-                $.ajax({
-                    url: "comment-add.php",
-                    data: str,
-                    type: 'post',
-                    success: function (response)
-                    {
-                        var result = eval('(' + response + ')');
-                        if (response)
-                        {
-                        	$("#comment-message").css('display', 'inline-block');
-                            $("#name").val("");
-                            $("#comment").val("");
-                            $("#commentId").val("");
-                     	   listComment();
-                        } else
-                        {
-                            alert("Failed to add comments !");
-                            return false;
-                        }
-                    }
-                });
-            });
-            
-            $(document).ready(function () {
-            	   listComment();
-            });
-
-            function listComment() {
-                $.post("comment-list.php",
-                        function (data) {
-                               var data = JSON.parse(data);
-                            
-                            var comments = "";
-                            var replies = "";
-                            var item = "";
-                            var parent = -1;
-                            var results = new Array();
-
-                            var list = $("<ul class='outer-comment'>");
-                            var item = $("<li>").html(comments);
-
-                            for (var i = 0; (i < data.length); i++)
-                            {
-                                var commentId = data[i]['comment_id'];
-                                parent = data[i]['parent_comment_id'];
-
-                                if (parent == "0")
-                                {
-                                    comments = "<div class='comment-row'>"+
-                                    "<div class='comment-info'><span class='commet-row-label'>from</span> <span class='posted-by'>" + data[i]['comment_sender_name'] + " </span> <span class='commet-row-label'>at</span> <span class='posted-at'>" + data[i]['date'] + "</span></div>" + 
-                                    "<div class='comment-text'>" + data[i]['comment'] + "</div>"+
-                                    "<div><a class='btn-reply' onClick='postReply(" + commentId + ")'>Reply</a></div>"+
-                                    "</div>";
-
-                                    var item = $("<li>").html(comments);
-                                    list.append(item);
-                                    var reply_list = $('<ul>');
-                                    item.append(reply_list);
-                                    listReplies(commentId, data, reply_list);
-                                }
-                            }
-                            $("#output").html(list);
-                        });
-            }
-
-            function listReplies(commentId, data, list) {
-                for (var i = 0; (i < data.length); i++)
-                {
-                    if (commentId == data[i].parent_comment_id)
-                    {
-                        var comments = "<div class='comment-row'>"+
-                        " <div class='comment-info'><span class='commet-row-label'>from</span> <span class='posted-by'>" + data[i]['comment_sender_name'] + " </span> <span class='commet-row-label'>at</span> <span class='posted-at'>" + data[i]['date'] + "</span></div>" + 
-                        "<div class='comment-text'>" + data[i]['comment'] + "</div>"+
-                        "<div><a class='btn-reply' onClick='postReply(" + data[i]['comment_id'] + ")'>Reply</a></div>"+
-                        "</div>";
-                        var item = $("<li>").html(comments);
-                        var reply_list = $('<ul>');
-                        list.append(item);
-                        item.append(reply_list);
-                        listReplies(data[i].comment_id, data, reply_list);
-                    }
-                }
-            }
-        </script>
-           
+                      
 </body>
 </html>
