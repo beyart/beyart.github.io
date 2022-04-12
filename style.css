@@ -7,8 +7,11 @@
           padding:0;
        }
         .sub-header{
-           height:50vh;
-           width:100%;
+            width:100%;
+            height:15vh;
+            position:absolute;
+            top:0;
+            background:black;
            /*background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("city.jpg");
            background-size:cover;
            background-position:center;*/ 
