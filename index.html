@@ -17,11 +17,11 @@
    <script src="jquery-3.2.1.min.js"></script>
 </head>
 <body>
-     <section class="sub-header">
-           
-          <video id="background-video" autoplay loop muted poster="https://assets.codepen.io/6093409/river.jpg">
-               src="background_video.mov" type="video/mov"
-          </video> 
+     <section class="video-wrapper">
+            <video playsinline autoplay muted loop poster="">
+             <source src="background_video.mp4" type="video/mp4">
+           </video>
+          <div class="sub-header">
           <nav>  
              <div class="nav-links" id="nav-links">
                    <i class="fa fa-angle-left" onclick="hideMenu()"></i>
@@ -35,6 +35,7 @@
              </div>
               <i class="fa fa-bars" onclick="showMenu()"></i> 
         </nav>
+        </div>
         <a href="index.html" class="logo"><img src="logo.jpg" class="imgx"/></a>
          <h1>Home</h1>
          <!--<div class="largescreen">
