@@ -47,7 +47,9 @@
       .blink {
         animation: blink 3s infinite;
       }
-
+      span{
+        font-size:100px
+      }
       @keyframes blink {
         0% {
            opacity: 1;
