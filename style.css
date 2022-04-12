@@ -34,6 +34,9 @@
          align-items: center;
          justify-content: center;
       }
+      .video-wrapper{
+          color:red;
+     }
       video{
         /** Simulationg background-size: cover */
         object-fit: cover;
@@ -48,23 +51,24 @@
         animation: blink 3s infinite;
       }
       span{
-        font-size:100px
+        font-size:100px;
+        color:red;
       }
       @keyframes blink {
         0% {
-           opacity: 1;
+         opacity: 1;
         }
        50% {
-           opacity: 0;
-          transform: scale(2);
+         opacity: 0;
+         transform: scale(2);
        }
        51% {
-          opacity: 0;
-          transform: scale(0);
+        opacity: 0;
+        transform: scale(0);
        }
-      100% {
-          transform: scale(1);
-          opacity: 1;
+       100% {
+        transform: scale(1);
+       opacity: 1;
       }
     }
        .sub-header h1{
