@@ -15,22 +15,25 @@
    </script>
 </head>
 <body>
-     <section class="sub-header">
-          <nav>
-             <i class="fa fa-bars" onclick="showMenu()"></i>
-              
+      <section class="video-wrapper">
+            <video playsinline autoplay muted loop poster="">
+             <source src="background_video.mp4" type="video/mp4">
+           </video>
+          <div class="sub-header">
+          <nav>  
              <div class="nav-links" id="nav-links">
                    <i class="fa fa-angle-left" onclick="hideMenu()"></i>
                     <ul>
-                       <li><a href="index.html">Home</a></li>
+                       <li><a href="index.html" class="active">Home</a></li>
                        <li><a href="blog.html">Blog</a></li>
                        <li><a href="services.html">Services</a></li>
-                       <li><a href="contact.html" class="active">Contact Us</a></li>
+                       <li><a href="contact.html">Contact Us</a></li>
                        <li><a href="about.html">About Us</a></li>
                     </ul>
              </div>
-             <i class="fa fa-bell" onclick="shownotifications()"></i>
+              <i class="fa fa-bars" onclick="showMenu()"></i> 
         </nav>
+        </div>
            <h1>Contact Us </h1>
            <a href="index.html" class="logo"><img src="logo.jpg" class="imgx"/></a>
      </section> 
