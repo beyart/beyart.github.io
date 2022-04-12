@@ -34,7 +34,7 @@
          align-items: center;
          justify-content: center;
       }
-      .video-wrapper{
+      .welcome-note p{
           color:red;
      }
       video{
