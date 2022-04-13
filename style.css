@@ -48,6 +48,9 @@
       .blink {
         animation: blink 3s infininite;
       }
+      .blinking{
+          background:black;
+     }
       .blinking span{
         font-size:100px;
         color:red;
