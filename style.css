@@ -48,7 +48,7 @@
       .blink {
         animation: blink 3s infninite;
       }
-      .blinky span{
+      .blinky{
         font-size:100px;
         color:red;
         margin-left:5px;
