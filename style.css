@@ -49,7 +49,7 @@
         animation: blink 3s infinite;
       }
       .blinking{
-          background:white;
+          background:steelblue;
           width:100%;
           margin-top:5px;
      }
