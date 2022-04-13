@@ -49,7 +49,8 @@
         animation: blink 3s infinite;
       }
       .blinking{
-          background:black;
+          background:white;
+          width:100%;
      }
       .blinking span{
         font-size:100px;
