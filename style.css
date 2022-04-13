@@ -48,8 +48,7 @@
      .blink {
         animation: blink 3s infinite;
       }
-      .blinking{
-          background:lightskyblue;
+      .blinking{ 
           width:100%;
           margin:auto
      }
