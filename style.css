@@ -48,11 +48,10 @@
       .blink {
         animation: blink 3s infninite;
       }
-      .video-wrapper span{
+      .blinky span{
         font-size:100px;
         color:red;
         margin-left:5px;
-        margin-top:105vh;
       }
       @keyframes blink {
         0% {
