@@ -47,11 +47,8 @@
       } 
       .blink {
         animation: blink 3s infninite;
-      }
-      .blinky{
         font-size:100px;
         color:red;
-        margin-left:5px;
       }
       @keyframes blink {
         0% {
