@@ -51,7 +51,7 @@
       .blinking{
           background:lightskyblue;
           width:100%;
-          margin-top:0;
+          margin:auto
      }
       .blinking span{
         font-size:100px;
