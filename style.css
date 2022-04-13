@@ -45,8 +45,8 @@
        top: 0;
        left: 0;
       } 
-      .blink {
-        animation: blink 3s infininite;
+     .blink {
+        animation: blink 3s infinite;
       }
       .blinking{
           background:black;
