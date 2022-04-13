@@ -50,7 +50,7 @@
       .blink {
         animation: blink 3s infinite;
       }
-      .video-wrapper span{
+      span{
         font-size:100px;
         color:red;
       }
