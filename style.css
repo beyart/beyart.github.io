@@ -46,7 +46,7 @@
        left: 0;
       } 
       .blink {
-        animation: blink 3s infninite;
+        animation: blink 3s infininite;
       }
       .blinking span{
         font-size:100px;
