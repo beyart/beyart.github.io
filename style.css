@@ -48,9 +48,9 @@
        left: 0;
       } 
       .blink {
-        animation: blink 3s infinite;
+        animation: blink 3s infninite;
       }
-      span{
+      .video-wrapper span{
         font-size:100px;
         color:red;
       }
