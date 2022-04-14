@@ -85,7 +85,7 @@
           justify-content:space-between; 
           text-align:center;
        }
-        nav input[type="search"]{
+        nav input{
             outline:none;
             border-radius:20px;
             border:1px solid blue;
