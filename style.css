@@ -85,7 +85,12 @@
           justify-content:space-between; 
           text-align:center;
        }
-       
+        nav input[type="search"]{
+            outline:none;
+            border-radius:20px;
+            border:1px solid blue;
+            padding:5px;
+       }
        .nav-links{
           flex:1;
           text-align:center;
