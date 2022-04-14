@@ -237,6 +237,9 @@
             .nav-links>ul>li:hover::after{
                 width:0%;
             }
+           .nav input{
+               display:none;
+           }
             .active::after{
                 width:0;
             }
