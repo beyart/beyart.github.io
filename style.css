@@ -479,10 +479,6 @@
          max-width:100%;
          height:auto;
        }
-       .blog-right{
-         flex-basis:48%;
-         margin-top:10px
-       }
        .blog-left h4{
           color:white;
           background:red;
@@ -492,14 +488,18 @@
           font-size:16px;
           text-align:center;
        }
-       /*.blog-right div{
+       .blog-left div{
           display:flex;
           padding:8px;
           text-align:center;
           justify-content:space-between; 
           color:#555;
+       }
+       .blog-right{
+         flex-basis:48%;
+         margin-top:10px;
+       }
        
-       }*/
        .contact-box{
           border:1px solid #ccc; 
           /*margin:50px 0;*/
