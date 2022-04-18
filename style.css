@@ -483,7 +483,7 @@
          flex-basis:48%;
          margin-top:10px
        }
-       .blog-right h4{
+       .blog-left h4{
           color:white;
           background:red;
           padding:7px 0;
@@ -492,17 +492,17 @@
           font-size:16px;
           text-align:center;
        }
-       .blog-right div{
+       /*.blog-right div{
           display:flex;
           padding:8px;
           text-align:center;
           justify-content:space-between; 
           color:#555;
        
-       }
+       }*/
        .contact-box{
           border:1px solid #ccc; 
-          margin:50px 0;
+          /*margin:50px 0;*/
           padding:10px 20px;
        }
        .contact-box h3{
