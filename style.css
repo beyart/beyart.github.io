@@ -460,7 +460,7 @@
           padding:12px 0;
        }
        .blog-left{
-          flex-basis:65%;
+          flex-basis:48%;
        }
        .blog-left img{
           width:100%;
@@ -480,7 +480,7 @@
          height:auto;
        }
        .blog-right{
-         flex-basis:32%;
+         flex-basis:48%;
          margin-top:10px
        }
        .blog-right h4{
