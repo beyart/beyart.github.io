@@ -222,10 +222,10 @@
             .nav-links{
               position:absolute;
               top:0;
-              left:0;
+              right:0;
               background:#333; 
               z-index:2;
-              width:200px;
+              width:100%;
               height:auto;
               text-align:left;
               display:none;
@@ -243,7 +243,7 @@
                display:block;
                color:white; 
                font-size:22px; 
-               float:left; 
+               float:right; 
                margin:10px;
                cursor:pointer;
             }
