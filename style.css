@@ -237,7 +237,7 @@
                color:white; 
                font-size:22px; 
                float:right; 
-               margin:10px;
+               margin-left:5px;
                cursor:pointer;
             }
             .nav-links ul{
@@ -465,7 +465,7 @@
           padding:0;
        }
        .blog-left p{
-         color:#999;
+         color:#444;
          padding:0;
        }
        .blog-left video{
