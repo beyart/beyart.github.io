@@ -141,7 +141,7 @@
           color:red;
           text-decoration:none;
           font-weight:600;
-          margin-top:25px;
+          margin:10px;
           font-size:x-large;
        }
        .welcome-note{
@@ -224,7 +224,7 @@
               right:0;
               background:#333; 
               z-index:2;
-              width:100%;
+              width:200px;
               height:auto;
               text-align:left;
               display:none;
