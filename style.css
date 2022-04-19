@@ -193,7 +193,7 @@
        }
        .imgx{
          height:50px;
-         width:250px;
+         width:185px;
       }
        @media(max-width:780px){
             *{
@@ -201,7 +201,7 @@
             }
           .imgx{
              height:50px;
-             width:250px;
+             width:185px;
            }
            .welcome-note h1{
               font-size:18px;
