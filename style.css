@@ -242,7 +242,7 @@
                display:block;
                color:white; 
                font-size:22px; 
-               float:right; 
+               float:left; 
                margin:10px;
                cursor:pointer;
             }
