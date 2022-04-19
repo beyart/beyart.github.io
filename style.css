@@ -236,7 +236,7 @@
                display:block;
                color:white; 
                font-size:22px; 
-               float:right; 
+               float:left; 
                margin-right:5px;
                cursor:pointer;
             }
@@ -465,7 +465,7 @@
           padding:0;
        }
        .blog-left p{
-         color:#444;
+         color:#333;
          padding:0;
        }
        .blog-left video{
