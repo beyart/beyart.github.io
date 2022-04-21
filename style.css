@@ -137,13 +137,13 @@
           transition:0.5s;
        }
         
-       .logo{
+       /*.logo{
           color:red;
           text-decoration:none;
           font-weight:600;
           margin:10px;
           font-size:x-large;
-       }
+       }*/
        .welcome-note{
           width:80%;
           margin:60px auto;
