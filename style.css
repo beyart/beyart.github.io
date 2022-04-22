@@ -284,10 +284,12 @@
                  font-size:20px;
             }
             .footer{
-            width:100%;
-            padding:30px 0;
-            text-align:center;
-            background:#333;
+              width:100%;
+              padding:30px 0;
+              text-align:center;
+              background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("footer.jpg");
+              background-size:cover;
+              background-position:center;
            }
            .footer h4{
                margin-top:25px;
