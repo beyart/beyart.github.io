@@ -192,16 +192,16 @@
           font-size:22px;
        }
        .imgx{
-         height:50px;
-         width:185px;
-      }
+             height:auto;
+             max-width:100%;
+           }
        @media(max-width:780px){
             *{
               box-sizing:border-box; 
             }
           .imgx{
-             height:50px;
-             width:185px;
+             height:auto;
+             max-width:100%;
            }
            .welcome-note h1{
               font-size:18px;
