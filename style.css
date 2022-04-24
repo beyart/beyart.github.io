@@ -44,6 +44,7 @@
        position: absolute;
        top: 0;
        left: 0;
+       background-color:transparent;
       } 
      .blink {
         animation: blink 3s infinite;
