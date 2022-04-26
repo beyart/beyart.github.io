@@ -52,7 +52,8 @@
       .text-box h3{
           color:darkred;
           border:1px solid darkred;
-          padding:10px
+          padding:10px;
+          background:transparent;
       }
      .blink {
         animation: blink 3s infinite;
