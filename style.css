@@ -45,8 +45,11 @@
        top: 0;
        left: 0;
        opacity:0.2
-      } 
-      .video-wrapper h3{
+      }
+      .text-box{
+          margin-top:20px auto;
+       }
+      .text-box h3{
           color:darkred;
           border:1px solid darkred;
           padding:10px
