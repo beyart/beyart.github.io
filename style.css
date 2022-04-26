@@ -35,7 +35,7 @@
          justify-content: center;
       }
       
-      video{
+      .video-wrapper video{
         /** Simulationg background-size: cover */
         object-fit: cover;
         height: 100%;
@@ -46,6 +46,9 @@
        left: 0;
        opacity:0.2
       } 
+      .video-wrapper h1{
+          color:red
+      }
      .blink {
         animation: blink 3s infinite;
       }
