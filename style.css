@@ -47,7 +47,9 @@
        opacity:0.2
       } 
       .video-wrapper h3{
-          color:gold
+          color:darkred;
+          border:1px solid darkred;
+          padding:10px
       }
      .blink {
         animation: blink 3s infinite;
