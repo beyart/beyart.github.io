@@ -54,6 +54,11 @@
           padding:10px;
           background:transparent;
       }
+      .dropdown .fa{
+          text-align:center;
+          font-size:30px;
+          color:black;
+     }
      .blink {
         animation: blink 3s infinite;
       }
