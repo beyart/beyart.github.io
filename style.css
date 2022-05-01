@@ -193,13 +193,6 @@
         nav .fa{
            display:none;
        }
-       .largescreen .fa{
-          color:#fff; 
-          margin-right:150px;
-          margin-top:15px;
-          float:right;
-          font-size:22px;
-       }
        .imgx{
              height:50px;
              width:180px;
