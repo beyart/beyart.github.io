@@ -56,9 +56,13 @@
       }
       .dropdown .fa{
           text-align:center;
-          font-size:30px;
+          font-size:35px;
           color:black;
+          margin-top:10px; 
      }
+     .dropdown .fa:hover{
+         box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    }
      .blink {
         animation: blink 3s infinite;
       }
