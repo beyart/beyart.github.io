@@ -498,6 +498,10 @@
          flex-basis:48%;
          margin-top:10px;
        }
+       .blog-right img{
+           max-width:100%;
+           height:auto;
+       }
        
        .contact-box{
           border:1px solid #ccc; 
