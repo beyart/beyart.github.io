@@ -58,7 +58,7 @@
           justify-content:center;
      }
       .dropdown .fa{
-          float:center;
+          margin:50% 50%;
           font-size:35px;
           color:black;
           margin-top:10px;
