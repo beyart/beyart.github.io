@@ -202,8 +202,8 @@
           font-size:22px;
        }
        .imgx{
-             height:auto;
-             max-width:100%;
+             height:50px;
+             width:185px;
            }
        @media(max-width:780px){
             *{
