@@ -499,8 +499,7 @@
          margin-top:10px;
        }
        .blog-right img{
-           max-width:100%;
-           height:auto;
+           width:100%;
        }
        
        .contact-box{
