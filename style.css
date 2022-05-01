@@ -54,8 +54,11 @@
           padding:10px;
           background:transparent;
       }
+      .dropdown{
+          justify-content:center;
+     }
       .dropdown .fa{
-          text-align:center;
+          float:center;
           font-size:35px;
           color:black;
           margin-top:10px;
