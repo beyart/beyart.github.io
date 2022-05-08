@@ -72,7 +72,11 @@
       }
       .blinking{ 
           width:80%;
-          margin:auto
+          margin:auto;
+          background:black;
+          border-radius:20px;
+          padding:15px;
+          
      }
       .blinking span{
         font-size:100px;
