@@ -70,10 +70,7 @@
      .blink {
         animation: blink 3s infinite;
       }
-      .blinking{ 
-          width:80%;
-          margin:auto;
-     }
+      
       .blinking span{
         font-size:100px;
         color:red;
