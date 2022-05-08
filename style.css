@@ -255,6 +255,17 @@
                margin:10px;
                cursor:pointer;
             }
+             .prevy{
+               display:block;
+               padding:15px;
+               color:white;
+               font-size:22px; 
+               float:left; 
+               margin:auto;
+               cursor:pointer;
+               font-weight: bold; 
+               
+            }
             .nav-links ul{
                padding:30px;
             }
