@@ -204,8 +204,8 @@
            display:none;
        }
        .imgx{
-             height:50px;
-             width:180px;
+             height:75px;
+             width:190px;
            }
        @media(max-width:780px){
             *{
