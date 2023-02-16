@@ -150,7 +150,7 @@
           content:"";
           width:100%;
           height:2px;
-          background:#fff; 
+          background:#4285F4; 
           display:block;
           margin:auto;
           transition:0.5s;
@@ -204,8 +204,8 @@
            display:none;
        }
        .imgx{
-             height:auto;
-             max-width:100%;
+             height:100px;
+             width:200px;
            }
        @media(max-width:780px){
             *{
