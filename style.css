@@ -46,13 +46,10 @@
        left: 0;
        opacity:;
       }
-      .text-box{
-          margin-top:30px;
-       }
       .text-box h3{
           color:white;
           padding:10px;
-          
+          font-size:24px;
       }
       .dropdown{
           justify-content:center;
@@ -400,7 +397,7 @@
           border-radius:10px;
           padding:100px 0;
           text-align:center;
-          repeat:no-repeat;
+          background-repeat:no-repeat;
        }
        .cnt h1{
            color:#009688; 
