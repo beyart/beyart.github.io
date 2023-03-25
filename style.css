@@ -49,12 +49,12 @@
           display: -webkit-box;
           display: -ms-flexbox;
           display: flex;
-         -webkit-box-align:left
-         -ms-flex-align:left
-          align-items:left
-         -webkit-box-pack:left
-         -ms-flex-pack:left
-          justify-content:center
+         -webkit-box-align:left;
+         -ms-flex-align:left;
+          align-items:left;
+         -webkit-box-pack:left;
+         -ms-flex-pack:left;
+          justify-content:center;
       }
       .text-box h3{
           background: #000 none repeat scroll 0 0;
