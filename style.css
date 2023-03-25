@@ -44,6 +44,10 @@
        left: 0;
        opacity:;
       }
+      .text-box{
+          position:absolute;
+          top:10vh;
+      }
       .text-box h3{
           color:white;
           padding:10px;
