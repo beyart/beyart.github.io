@@ -45,13 +45,12 @@
        opacity:;
       }
       .text-box{
-          position:absolute;
-          top:10vh;
+         
       }
       .text-box h3{
-          color:white;
+          color:#4285F4;
           padding:10px;
-          font-size:24px;
+          font-size:30px;
       }
       .dropdown{
           justify-content:center;
