@@ -12,9 +12,7 @@
             position:absolute;
             top:0;
             background:black;
-           /*background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("city.jpg");
-           background-size:cover;
-           background-position:center;*/ 
+            
        }
        .video-wrapper{
           /* Telling our absolute positioned video to 
@@ -204,7 +202,7 @@
              height:80px;
              width:180px;
            }
-       @media(max-width:780px){
+       @media(max-width:767px){
             *{
               box-sizing:border-box; 
             }
