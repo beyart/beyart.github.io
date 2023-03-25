@@ -400,6 +400,7 @@
           border-radius:10px;
           padding:100px 0;
           text-align:center;
+          repeat:no-repeat;
        }
        .cnt h1{
            color:#009688; 
