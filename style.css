@@ -49,12 +49,12 @@
           display: -webkit-box;
           display: -ms-flexbox;
           display: flex;
-         -webkit-box-align: center;
-         -ms-flex-align: center;
-          align-items: center;
-         -webkit-box-pack: center;
-         -ms-flex-pack: center;
-          justify-content: center;
+         -webkit-box-align:left
+         -ms-flex-align:left
+          align-items:left
+         -webkit-box-pack:left
+         -ms-flex-pack:left
+          justify-content:center
       }
       .text-box h3{
           background: #000 none repeat scroll 0 0;
@@ -64,6 +64,7 @@
           mix-blend-mode: overlay;
           padding: 5px 15px;
           text-align: center;
+          font-size:30px;
       }
       .dropdown{
           justify-content:center;
