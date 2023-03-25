@@ -45,7 +45,8 @@
        opacity:;
       }
       .text-box{
-         
+         text-align:left;
+         margin-top:20px;
       }
       .text-box h3{
           color:#4285F4;
