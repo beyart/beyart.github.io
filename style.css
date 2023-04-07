@@ -217,22 +217,24 @@
              height:80px;
              width:180px;
            }
-         .cnt{
-          margin:60px auto; 
-          width:80%;
-          background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("city.jpg");
-          background-size:cover;
-          background-position:center;
-          border-radius:10px;
-          padding:100px 0;
-          text-align:center;
-          background-repeat:no-repeat;
-       }
-       .cnt h1{
-           color:#009688; 
-           margin-bottom:40px;
-           padding:0;
-       }
+          .footer{
+              width:100%;
+              padding:30px 0;
+              text-align:center;
+              background:#333444;
+           
+           }
+           .footer h4{
+               margin-top:25px;
+               margin-bottom:20px;
+               font-weight:600;
+               color:#fff;
+               font-size:15px;
+           }
+            .footer p{
+             color:#fff; 
+             font-size:12px;
+           }
        
        @media(max-width:767px){
             *{
@@ -331,24 +333,7 @@
             .services h2{
                  font-size:20px;
             }
-            .footer{
-              width:100%;
-              padding:30px 0;
-              text-align:center;
-              background:#333444;
-           
-           }
-           .footer h4{
-               margin-top:25px;
-               margin-bottom:20px;
-               font-weight:600;
-               color:#fff;
-               font-size:15px;
-           }
-            .footer p{
-             color:#fff; 
-             font-size:12px;
-           }
+            
            .sub-header{
              height:20vh;
              width:100%;
@@ -440,9 +425,7 @@
             width:100%;
             padding:30px 0;
             text-align:center;
-            background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("footer.jpg");
-            background-size:cover;
-            background-position:center;
+            background:#333444;
        }
        .footer h4{
             margin-top:25px;
