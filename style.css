@@ -1,4 +1,4 @@
-
+Okay
      *{ 
           box-sizing: border-box; 
        }
@@ -240,8 +240,8 @@
               box-sizing:border-box; 
             }
           .imgx{
-             height:40px;
-             width:140px;
+             height:60px;
+             width:160px;
            }
            .welcome-note h1{
               font-size:18px;
@@ -336,9 +336,8 @@
               width:100%;
               padding:30px 0;
               text-align:center;
-              background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("footer.jpg");
-              background-size:cover;
-              background-position:center;
+              background:#333444;
+           
            }
            .footer h4{
                margin-top:25px;
