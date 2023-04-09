@@ -1,4 +1,4 @@
-Bk      *{ 
+    *{ 
           box-sizing: border-box; 
        }
        html,body{
@@ -10,7 +10,7 @@ Bk      *{
             height:15vh;
             position:absolute;
             top:0;
-            background:skyblue;
+            background:#fff;
             
        }
        .video-wrapper{
@@ -221,7 +221,7 @@ Bk      *{
               width:100%;
               padding:30px 0;
               text-align:center;
-              background:#333444;
+              background:skyblue;
            
            }
            .footer h4{
@@ -337,7 +337,7 @@ Bk      *{
            .sub-header{
              height:20vh;
              width:100%;
-             background:skyblue;
+             background:#fff;
            }
            .largescreen .fa{
              display:none;
@@ -425,7 +425,7 @@ Bk      *{
             width:100%;
             padding:30px 0;
             text-align:center;
-            background:#333444;
+            background:skyblue;
        }
        .footer h4{
             margin-top:25px;
