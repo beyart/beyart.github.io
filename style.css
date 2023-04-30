@@ -75,7 +75,7 @@
       .text-overlay {
         position: absolute;
         top: 80%;
-        left:4%;
+        left:40%;
         transform: translate(-50%, -50%);
         text-align:left;
         color: #fff;
