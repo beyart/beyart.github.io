@@ -2,6 +2,13 @@
     *{ 
           box-sizing: border-box; 
        }
+
+      body{
+           font-family: 'Anaheim', sans-serif;
+           font-family: 'Castoro Titling', cursive;
+           font-family: 'Montserrat', sans-serif;
+           font-family: 'Source Sans Pro', sans-serif;
+      }
        html,body{
           margin:0;
           padding:0;
