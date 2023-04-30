@@ -74,12 +74,13 @@
       }
       .text-overlay {
         position: absolute;
-        top: 50%;
-        left: 50%;
+        top: 60%;
+        left: 20%;
         transform: translate(-50%, -50%);
         text-align:left;
         color: #fff;
-        background:black;
+        Padding:15px;
+        background: transparent;
      }
       .dropdown{
           justify-content:center;
