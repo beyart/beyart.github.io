@@ -16,3 +16,16 @@ window.onclick=function(event) {
    }
  }
 }
+
+//Automatic text typing code
+function typeText() {
+  var text = "This is the text that will continue typing.";
+  var i = 0;
+  setInterval(function() {
+    document.getElementById("typing-container").innerHTML += text.charAt(i);
+    i++;
+    if (i == text.length) {
+      clearInterval();
+    }
+  }, 50);
+}
