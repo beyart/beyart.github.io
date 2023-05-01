@@ -79,6 +79,8 @@
         transform: translate(-50%, -50%);
         text-align:left;
         color: #fff;
+        font-size:20px;
+        font-weight:bold;
         Padding:15px;
         background: transparent;
      }
