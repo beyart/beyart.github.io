@@ -19,7 +19,7 @@ window.onclick=function(event) {
 
 //Automatic text typing code
 function typeText() {
-  var text = "This is the text that will continue typing.";
+  var text = "Join Beyart today and help us shape future technology.";
   var i = 0;
   setInterval(function() {
     document.getElementById("typing-container").innerHTML += text.charAt(i);
