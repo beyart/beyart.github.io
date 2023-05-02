@@ -79,7 +79,7 @@
         transform: translate(-50%, -50%);
         text-align:left;
         color: #fff;
-        font-size:20px;
+        font-size:25px;
         font-weight:bold;
         Padding:15px;
         background: transparent;
@@ -130,7 +130,7 @@
         
        nav{
           display:flex;
-          padding:2% 6%;
+          padding:2% 4%;
           justify-content:space-between; 
           text-align:center;
        }
@@ -283,7 +283,7 @@
               height:auto;
               text-align:left;
               display:none;
-              box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+              /*box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);*/
               border-radius:;
               
             }
