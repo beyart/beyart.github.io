@@ -29,3 +29,17 @@ function typeText() {
     }
   }, 100);
 }
+
+//Code to execute gallery automation
+function autoScroll() {
+  var galleryImages = document.querySelectorAll(".gallery img");
+  var currentImage = 0;
+  var maxImages = galleryImages.length - 1;
+
+  setInterval(function() {
+    galleryImages[currentImage].style.opacity = "0";
+    currentImage = (currentImage === maxImages) ? 0 : currentImage + 1;
+    galleryImages[currentImage].style.opacity = "1";
+  }, 5000);
+}
+
