@@ -446,6 +446,7 @@
             padding:30px 0;
             text-align:center;
             background:#fff;
+            border-top:2px solid grey;
        }
        .footer h4{
             margin-top:25px;
@@ -466,12 +467,13 @@
        
        .icons .fa{
            color:#000;
-           margin:5px;
-           padding:10px; 
-           cursor:pointer;
-     
+           padding:10px;
+           background:#fff;
        }
-       
+       .icons .fa:hover{
+           background:#4285F4;
+           color:#fff;
+       }
        .about-us{
           width:80%;
           margin:auto;
