@@ -27,5 +27,5 @@ function typeText() {
     if (i == text.length) {
       clearInterval();
     }
-  }, 50);
+  }, 100);
 }
