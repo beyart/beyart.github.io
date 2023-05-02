@@ -224,7 +224,7 @@
            cursor:pointer;
        }
         .visit-button:hover{
-           background:orange;   
+           background:#62516D;   
            border:1px solid orange; 
            transition:1s;
            color:navy; 
