@@ -18,7 +18,7 @@
             height:15vh;
             position:absolute;
             top:0;
-            background:#62516D;
+            background:#4285F4;
             
        }
        .video-wrapper{
@@ -400,7 +400,7 @@
            .sub-header{
              height:20vh;
              width:100%;
-             background:#62516D;
+             background:#4285F4;
            }
            .largescreen .fa{
              display:none;
