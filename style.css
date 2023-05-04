@@ -378,7 +378,29 @@
     margin-bottom:10px;
     color:#4285F4;
 }
-
+.messeges{
+      margin:auto;
+      height:auto;
+      margin-top:10px;
+      margin-bottom:15px;
+      padding:15px; 
+      text-align:center;
+      
+}
+.messeges p{
+     color:#000;
+     font-size:15px;
+}
+.messeges span{
+    color:#000;
+}
+.messeges .fa{
+    color:#000;
+    font-size:18px;
+    margin:0 13px;
+    padding:4px;
+    margin-top:15px;
+}
    @media(max-width:767px){
             *{
               box-sizing:border-box; 
