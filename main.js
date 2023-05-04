@@ -70,3 +70,4 @@ function enlargeImage(event) {
     document.body.removeChild(enlargedImage);
   });
 }
+enlargeImage();
