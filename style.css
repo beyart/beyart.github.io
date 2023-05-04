@@ -219,9 +219,9 @@
        }
         .visit-button{
            display:inline-block; 
-           color:#fff; 
+           color:grey; 
            background:transparent;
-           border:1px solid white;
+           border:1px solid grey;
            padding:12px 34px;
            text-decoration:none;
            font-size:13px;
@@ -229,10 +229,10 @@
            cursor:pointer;
        }
         .visit-button:hover{
-           background:#62516D;   
+           background:#4285F4;   
            border:1px solid orange; 
            transition:1s;
-           color:navy; 
+           color:gold; 
            text-decoration:underline ; 
        }
         nav .fa{
