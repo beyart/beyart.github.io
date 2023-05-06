@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Anaheim&family=Castoro+Titling&family=Montserrat&family=Source+Sans+Pro&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Anaheim&family=Castoro+Titling&family=Montserrat&family=Source+Sans+Pro&display=swap')
     *{ 
           box-sizing: border-box; 
        }
@@ -18,7 +18,7 @@
             height:15vh;
             position:absolute;
             top:0;
-            background:#4285F4;
+            background:brown;
             
        }
        .video-wrapper{
