@@ -75,13 +75,13 @@
       .text-overlay {
         position: absolute;
         top: 80%;
-        left:35%;
+        left:30%;
         transform: translate(-50%, -50%);
         text-align:left;
         color: #fff;
         font-size:25px;
         font-weight:bold;
-        Padding:15px;
+        Padding:10px;
         background: transparent;
      }
       .dropdown{
