@@ -19,7 +19,7 @@ window.onclick=function(event) {
 
 //Automatic text typing code
 function typeText() {
-  var text = "Join Beyart today and experience technology at full capacity, the future is here.";
+  var text = "Join Beyart today and experience technology at full capacity.";
   var i = 0;
   setInterval(function() {
     document.getElementById("typing-container").innerHTML += text.charAt(i);
