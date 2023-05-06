@@ -76,6 +76,7 @@
         position: absolute;
         top: 80%;
         left:35%;
+        width:70%;
         transform: translate(-50%, -50%);
         text-align:left;
         color: #fff;
