@@ -240,8 +240,8 @@
            display:none;
        }
        .imgx{
-             height:80px;
-             width:180px;
+             height:100px;
+             width:200px;
            }
           .footer{
               width:100%;
@@ -426,11 +426,12 @@
               background:#fff; 
               z-index:2;
               width:200px;
-              height:auto;
+              height:300px;
               text-align:left;
               display:none;
               /*box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);*/
               border-radius:;
+              overflow-y:auto;
               
             }
              
@@ -585,7 +586,7 @@
           background:aliceblue;
        }
        .cnt h1{
-           color:#009688; 
+           color:brown/*#009688*/; 
            margin-bottom:40px;
            padding:0;
        }
