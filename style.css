@@ -230,11 +230,11 @@
            margin-top:30px;
        }
         .visit-button:hover{
-           background:#4285F4;   
+           background:brown;   
            border:1px solid orange; 
-           transition:1s;
-           color:gold; 
-           text-decoration:underline ; 
+           transition:4s;
+           color:white; 
+           text-decoration:; 
        }
         nav .fa{
            display:none;
