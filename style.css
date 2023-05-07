@@ -288,7 +288,7 @@
     height: 200px;
     object-fit: cover;
     border-radius:10px;
-    border:3px solid #4285F4;
+    border:2px solid brown;
 }
 .Gallery-card-name{
     width: 100%;
