@@ -242,6 +242,9 @@
        .imgx{
              height:100px;
              width:200px;
+             position:absolute;
+             top:10px;
+             left:10px;
            }
           .footer{
               width:100%;
