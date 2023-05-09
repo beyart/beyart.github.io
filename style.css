@@ -427,8 +427,8 @@
             }
             .nav-links{
               position:absolute;
-              top:50px;
-              right:0;
+              top:100px;
+              left:0;
               background:#fff; 
               z-index:2;
               width:200px;
