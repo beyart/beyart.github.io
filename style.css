@@ -412,6 +412,9 @@
           .imgx{
              height:60px;
              width:160px;
+             position:absolute;
+             left:10px;
+             top:10px;
            }
            .welcome-note h1{
               font-size:18px;
@@ -451,7 +454,7 @@
                padding:15px;
                color:#000;
                font-size:22px; 
-               float:left; 
+               float:right; 
                margin:auto;
                cursor:pointer;
                font-weight: bold; 
