@@ -542,7 +542,7 @@
        .services-col{
           padding:30px;
           width:100%;
-          
+          color:#fff;
           flex-basis:48%;
           margin-bottom:10px;
           border-radius:10px;
@@ -558,6 +558,10 @@
           transition:1s;
        
           box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+       }
+       .services-col .fa{
+          color:#4285F4;
+          font-size:25px;
        }
        .services-col img{
           width:100%;
