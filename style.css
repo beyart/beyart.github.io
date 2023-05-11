@@ -563,6 +563,9 @@
           color:#4285F4;
           font-size:25px;
        }
+       .services-col span{
+          color:#000;
+       }
        .services-col img{
           width:100%;
        }
