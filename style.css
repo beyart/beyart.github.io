@@ -540,14 +540,23 @@
           justify-content:space-between; 
        }
        .services-col{
+          padding:30px;
+          width:100%;
+          
           flex-basis:48%;
-          margin-bottom:5%;
+          margin-bottom:10px;
           border-radius:10px;
        }
        .services-extend{
-          padding:20px 12px;
+          width:100%;
+          height:auto;
+
+          padding:30px;
+          margin-bottom:10px;
+          background-image:linear-gradient(#FFDD43, #A0186A);
+  
           transition:1s;
-          background :#fff; 
+       
           box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
        }
        .services-col img{
