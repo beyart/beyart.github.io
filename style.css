@@ -542,6 +542,7 @@
        .services-col{
           padding:30px;
           width:100%;
+          height:150px;
           color:#fff;
           flex-basis:48%;
           margin-bottom:10px;
@@ -549,8 +550,8 @@
        }
        .services-extend{
           width:100%;
-          height:auto;
-
+          height:150px;
+          color:#fff;
           padding:30px;
           margin-bottom:10px;
           background-image:linear-gradient(#FFDD43, #A0186A);
@@ -571,7 +572,7 @@
        }
        .services h2{
           text-align:center;
-          background:red;
+          background:brown;
           padding:10px 0;
           color:#fff; 
        }
