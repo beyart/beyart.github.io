@@ -83,6 +83,7 @@
         font-weight:bold;
         Padding:10px;
         background: transparent;
+        border:2px solid #ABC270;
      }
       .dropdown{
           justify-content:center;
@@ -556,8 +557,8 @@
           color:#fff;
           padding:30px;
           margin-bottom:10px;
-          background-image:linear-gradient(#FFDD43, #A0186A);
-  
+          background:#fff;
+          border:2px solid #ABC270;
           transition:1s;
        
           box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
