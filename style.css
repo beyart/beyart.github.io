@@ -102,14 +102,14 @@
         animation: blink 3s infinite;
       }
       .content{
-         position:relative;
-         top:5px;
+      
+   
          padding:10px;
-         margin-top:20px;
+         margin-top:30px;
          wodth:100%;
          height:auto;
          border-bottom:3px solid lightgrey;
-         margin-bottom:20px;
+         margin-bottom:80px;
       }
       .blinking span{
         font-size:100px;
@@ -302,12 +302,12 @@
     border-top-right-radius:10px;
 }
 .Gallery-card-name{
-    width: 100%;
+  
     text-align:center;
   
     font-size: 14px;
     /*text-transform: capitalize;*/
-    padding: 1px;
+    padding:8px;
     color:brown;
     font-weight:bold;
 }
