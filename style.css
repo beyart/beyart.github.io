@@ -443,7 +443,7 @@
              
             nav .fa{
                display:block;
-               color:#fff; 
+               color:#000; 
                font-size:22px; 
                float:left; 
                margin:10px;
@@ -453,7 +453,7 @@
              .prevy{
                display:block;
                padding:10px;
-               color:#fff;
+               color:#000;
                font-size:22px; 
                float:left;
 
