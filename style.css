@@ -303,12 +303,13 @@
 }
 .Gallery-card-name{
     width: 100%;
-    text-align: left;
-    font-weight:normal;
-    font-size: 13px;
+    text-align:center;
+  
+    font-size: 14px;
     /*text-transform: capitalize;*/
     padding: 1px;
-    color:#555555 ;
+    color:brown;
+    font-weight:bold;
 }
 .footer{
    /* background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("images/contact_img.jpg");
