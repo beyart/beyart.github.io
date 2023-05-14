@@ -416,7 +416,10 @@
     padding:4px;
     margin-top:15px;
 }
-   @media(max-width:767px){
+.services-col{
+   margin-right:15px;
+}
+@media(max-width:767px){
             *{
               box-sizing:border-box; 
             }
@@ -553,7 +556,7 @@
        }
        .services-col{
           width:100%;
-
+          margin-right:15px;
           height:150px;
           padding:30px;
           width:100%;
