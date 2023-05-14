@@ -43,31 +43,33 @@ function autoScroll() {
   }, 5000);
 }
 
-// get all images in the gallery
-const images = document.querySelectorAll('.Gallery-card-img');
+function enlargeImage(img) {
+  // Get the current size of the image.
+  var width = img.width;
+  var height = img.height;
 
-// add a click event listener to each image
-images.forEach(image => {
-  image.addEventListener('click', enlargeImage);
-});
+  // Create a new image element with the same dimensions as the original image.
+  var enlargedImage = document.createElement("img");
+  enlargedImage.width = width;
+  enlargedImage.height = height;
 
-// function to enlarge the clicked image
-function enlargeImage(event) {
-  // create a new image element
-  const enlargedImage = new Image();
+  // Set the src of the new image to the src of the original image.
+  enlargedImage.src = img.src;
 
-  // set the src of the new image element to the src of the clicked image
-  enlargedImage.src = event.target.src;
+  // Create a new div element to contain the enlarged image.
+  var enlargedImageDiv = document.createElement("div");
+  enlargedImageDiv.style.width = width + "px";
+  enlargedImageDiv.style.height = height + "px";
+  enlargedImageDiv.style.position = "absolute";
+  enlargedImageDiv.style.top = "50%";
+  enlargedImageDiv.style.left = "50%";
+  enlargedImageDiv.style.transform = "translate(-50%, -50%)";
 
-  // set the class of the new image element to 'enlarged-image'
-  enlargedImage.classList.add('enlarged-image');
+  // Add the enlarged image to the div element.
+  enlargedImageDiv.appendChild(enlargedImage);
 
-  // add the new image element to the document
-  document.body.appendChild(enlargedImage);
-
-  // add a click event listener to the new image element to remove it when clicked
-  enlargedImage.addEventListener('click', () => {
-    document.body.removeChild(enlargedImage);
-  });
+  // Show the div element.
+  enlargedImageDiv.style.display = "block";
 }
-enlargeImage();
+
+ 
