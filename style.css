@@ -460,7 +460,7 @@
             }
              .prevy{
                display:block;
-               padding:5px;
+               padding:;
                color:#000;
                font-size:22px; 
                float:left;
@@ -468,6 +468,7 @@
                   
  
                margin-left:10px;
+               margin-top;10px;
                cursor:pointer;
 
                
