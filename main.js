@@ -58,8 +58,8 @@ function enlargeImage(img) {
 
   // Create a new div element to contain the enlarged image.
   var enlargedImageDiv = document.createElement("div");
-  enlargedImageDiv.style.width = width + "px";
-  enlargedImageDiv.style.height = height + "px";
+  enlargedImageDiv.style.width = width + "200px";
+  enlargedImageDiv.style.height = height + "150px";
   enlargedImageDiv.style.position = "absolute";
   enlargedImageDiv.style.top = "50%";
   enlargedImageDiv.style.left = "50%";
