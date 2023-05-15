@@ -660,7 +660,7 @@ nav .fa{
          .nav-links{
              position:absolute;
              top:70px;
-             left:0;
+             right:0;
              background:#fff; 
              z-index:2;
              width:200px;
@@ -677,7 +677,7 @@ nav .fa{
              display:block;
              color:#000; 
              font-size:22px; 
-             float:left; 
+             float:right; 
              margin:10px;
              margin-right:10px;
              cursor:pointer;
