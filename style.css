@@ -636,7 +636,7 @@ nav .fa{
 }
      
 /*Disign for mobile phones*/
-@media(max-width:767px){
+@media and screen(max-width:767px){
         *{
               box-sizing:border-box; 
          }
