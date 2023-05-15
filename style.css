@@ -631,7 +631,9 @@ nav .fa{
        border-top-right-radius:5px ;   
 }
 
-      
+.prevy{
+   display:none;
+}
      
 /*Disign for mobile phones*/
 @media(max-width:767px){
@@ -641,7 +643,10 @@ nav .fa{
          .imgx{
              height:60px;
              width:160px;
-             margin-left:10px;
+             
+             position: absolute;
+             top:10px;
+             right:10px;
          }
          .welcome-note h1{
              font-size:18px;
