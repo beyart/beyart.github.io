@@ -67,7 +67,12 @@ html,body{
     height:auto;
     border-bottom:3px solid lightgrey;
     margin-bottom:80px;
-}     
+}  
+.content h3{
+   padding:10px;
+   margin:0;
+   
+}
 .sub-header h1{
     display:none;
     margin-top:30px;
