@@ -752,5 +752,8 @@ nav .fa{
            .largescreen .fa{
              display:none;
            }
+           .footer{
+             font-size:13px;
+           }
           
 }
