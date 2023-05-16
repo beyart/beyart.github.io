@@ -71,6 +71,7 @@ html,body{
 .content h3{
    padding:10px;
    margin:0;
+   margin-bottom:10px;
    
 }
 .sub-header h1{
@@ -164,7 +165,7 @@ nav input[type="submit"]{
 }
 .visit-button:hover{
      background:brown;   
-     border:1px solid orange; 
+     border:1px solid #ABC270; 
      transition:4s;     
      color:white; 
      text-decoration:; 
@@ -751,4 +752,5 @@ nav .fa{
            .largescreen .fa{
              display:none;
            }
+          
 }
