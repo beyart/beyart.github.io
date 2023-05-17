@@ -17,7 +17,7 @@ html,body{
    height:15vh;
    position:absolute;
    top:0;
-   background-image:linear-gradient(#ABC270, white);         
+   background:#ABC270;       
 }
 .video-wrapper{
   /* Telling our absolute positioned video to 
