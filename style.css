@@ -634,12 +634,13 @@ nav .fa{
 #slider{
        margin:auto;
        width:250px;
-       height:200px;
-       padding:5px;
+       height:300px;
+  
        box-shadow: 0 0 20px rgba(0,0,0,1);
        position:relative;
        border:2px solid #ABC270;
        border-radius:10px;
+       overflow:auto;
 }
 .slide{
        list-style:none;
