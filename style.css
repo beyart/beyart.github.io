@@ -634,7 +634,7 @@ nav .fa{
 #slider{
        margin:auto;
        max-width:350px;
-       height:350;
+       height:300px;
 
        box-shadow: 0 0 20px rgba(0,0,0,1);
        position:relative;
