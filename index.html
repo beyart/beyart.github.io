@@ -14,6 +14,7 @@
        
    </script>
    <script src="jquery-3.2.1.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/ResponsiveSlides.js/1.55/responsiveslides.min.js"></script>
    <script src="main.js"></script>
 </head>
 <body onload="typeText()" oncontextmenu="return false">
@@ -46,13 +47,13 @@
      </section> 
      <section class="content">
       <h3>Gallery at a glance</h3>
-  <div class="Gallery-card">
-    <div class="Gallery-card-img" >    
-        <img src="city.jpg"  alt="" />         
-       <!-- <img src="footer.jpg"  alt="" />       
-        <img src="meditation.jpg" alt="" />  
-        <img src="python.jpg" alt="" />-->
-    </div>          
+  <div class="">
+      <ul id="slider">
+          <li class="slide"><img src="footer.jpg" width="250px" height="200px"></li>
+          <li class="slide"><img src="meditatoon.jpg" width="250px" height="200px"></li>
+          <li class="slide"><img src="city.jpg" width="250px" height="200px"></li>
+          <li class="slide"><img src="budded_orange.jpg" width="250px" height="200px"></li>
+      </ul>        
   </div> 
      </section>
      <section class="cnt">           
@@ -96,47 +97,18 @@
 
     </section>
      <script type="text/javascript">
-           var navLinks=document.getElementById("nav-links");
-           function showMenu(){
-              navLinks.style.display="block";
-           }
-           function hideMenu(){
-              navLinks.style.display="none";
-           }
-           function showNotifications(){
-              alert("You don't have any notifications");
-           }
-         
-     </script>
-     <script>
-         $(document).ready(function() {
-  // Get all the images in the gallery
-  var images = $('.Gallery-card-img' img);
+    $(document).ready(function(){
+     $('#slider>li:gt(0)').hide();
+     setInterval(function() {
+        $('#slider > li:first')
+          .fadeOut(1000)
+          .next()
+          .fadeIn(1000)
+          .end()
+          .appendTo('#slider');
+      }, 2000);
 
-  // Loop through each image
-  for (var i = 0; i < images.length; i++) {
-    // Hide the image
-    images[i].style.opacity = 0;
-  }
-
-  // Set up a timer to fade in each image
-  var timer = setInterval(function() {
-    // Get the next image in the gallery
-    var image = images.eq(0);
-
-    // Fade in the image
-    image.fadeTo(1000, 1);
-
-    // Remove the image from the queue
-    images.splice(0, 1);
-
-    // If there are no more images, clear the timer
-    if (images.length === 0) {
-      clearInterval(timer);
-    }
-  }, 1000);
-});
-
+   }); 
      </script>          
 </body>
 </html>
