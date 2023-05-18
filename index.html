@@ -127,16 +127,34 @@
          
      </script>
      <script>
-        $("#slideshow > div:gt(0)").hide();
+         $(document).ready(function() {
+  // Get all the images in the gallery
+  var images = $('.gallery-img');
 
-setInterval(function() { 
-  $('#slideshow > div:first')
-  .fadeOut(1000)
-  .next()
-  .fadeIn(1000)
-  .end()
-  .appendTo('#slideshow');
-}, 5000);
+  // Loop through each image
+  for (var i = 0; i < images.length; i++) {
+    // Hide the image
+    images[i].style.opacity = 0;
+  }
+
+  // Set up a timer to fade in each image
+  var timer = setInterval(function() {
+    // Get the next image in the gallery
+    var image = images.eq(0);
+
+    // Fade in the image
+    image.fadeTo(1000, 1);
+
+    // Remove the image from the queue
+    images.splice(0, 1);
+
+    // If there are no more images, clear the timer
+    if (images.length === 0) {
+      clearInterval(timer);
+    }
+  }, 1000);
+});
+
      </script>          
 </body>
 </html>
