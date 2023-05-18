@@ -742,11 +742,11 @@ nav .fa{
              display:flex; 
              position:absolute;
              width:100%;
-             padding:2% 2%; 
+             padding:3% 4%; 
              height:auto;
              justify-content:space-between;
              background:transparent;
-             top:60px;
+             top:70px;
           }
           .header-icons a{
             text-decoration:none;
