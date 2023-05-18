@@ -46,15 +46,25 @@
         </div>
      </section> 
      <section class="content">
-      <h3>Gallery at a glance</h3>
-  <div class="">
-      <ul id="slider">
-          <li class="slide"><img src="footer.jpg"></li>
-          <li class="slide"><img src="meditation.jpg"></li>
-          <li class="slide"><img src="city.jpg"></li>
-          <li class="slide"><img src="python.jpg"></li>
-      </ul>        
-  </div> 
+         <h3>Gallery at a glance</h3>
+         <div class="Gallery-group">
+            <div class="Gallery-card" >
+               <img src="city.jpg" class="Gallery-card-img" alt=""/>
+               <p class="Gallery-card-name">Spinach production, kenya.</p>
+            </div>
+            <div class="Gallery-card">
+               <img src="footer.jpg" class="Gallery-card-img" alt=""/>
+               <p class="Gallery-card-name">Budding and grafting, mango propagation.</p>
+            </div>
+            <div class="Gallery-card">
+               <img src="meditation.jpg" class="Gallery-card-img" alt=""/>
+               <p class="Gallery-card-name">Mbololo forest, taita-taveta.</p>
+            </div>
+            <div class="Gallery-card">
+               <img src="python.jpg" class="Gallery-card-img" alt=""/>
+               <p class="Gallery-card-name">Computer repair and maintenance.</p> 
+           </div>          
+          </div> 
      </section>
      <section class="cnt">           
            <h1>Get our service at affordable prices, Beyart is bringing the world at your finger tips..</h1>
@@ -101,12 +111,12 @@
      $('#slider>li:gt(0)').hide();
      setInterval(function() {
         $('#slider > li:first')
-          .fadeOut(5000)
+          .fadeOut(1000)
           .next()
-          .fadeIn(5000)
+          .fadeIn(1000)
           .end()
           .appendTo('#slider');
-      }, 8000);
+      }, 2000);
 
    }); 
      </script>          
