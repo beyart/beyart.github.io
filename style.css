@@ -60,7 +60,10 @@ html,body{
     background: transparent;
     border:2px solid #ABC270;
 } 
-.content{         
+.content{   
+    position:relative;
+    right:0;
+    left:0;
     padding:10px;
     margin-top:30px;
     width:100%;
