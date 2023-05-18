@@ -210,7 +210,7 @@ nav .fa{
      height: auto;
      display: flex;
      flex-wrap: nowrap;
-     overflow-x: auto;
+     overflow-x:hidden;
      margin-bottom:20px;
 }
 .Gallery-card{
