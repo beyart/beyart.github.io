@@ -17,7 +17,7 @@ html,body{
    height:15vh;
    position:absolute;
    top:0;
-   background:#ADC271;           
+   background:#ADC241;           
 }
 .video-wrapper{
   /* Telling our absolute positioned video to 
@@ -736,7 +736,7 @@ nav .fa{
           .sub-header{
              height:20vh;
              width:100%;
-             background:#ADC271;
+             background:#ADC241;
           }
           .header-icons{
              display:flex; 
@@ -746,7 +746,7 @@ nav .fa{
              height:auto;
              justify-content:space-between;
              background:transparent;
-             top:40px;
+             top:60px;
           }
           .header-icons a{
             text-decoration:none;
