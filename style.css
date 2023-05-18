@@ -633,18 +633,26 @@ nav .fa{
    
 #slider{
        margin:auto;
-       width:250px;
+       width:350px;
        height:300px;
   
        box-shadow: 0 0 20px rgba(0,0,0,1);
        position:relative;
        border:2px solid #ABC270;
        border-radius:10px;
-       overflow:auto;
+       
 }
 .slide{
        list-style:none;
        
+}
+
+.slide img{
+   object-fit: cover;
+
+   border-top-left-radius:10px;
+
+   border-top-right-radius:10px;
 }
 #slider>li{
        position:absolute;
@@ -652,11 +660,7 @@ nav .fa{
        left:5px;
        right:5px;
        bottom:5px;
-       object-fit: cover;
-
-       border-top-left-radius:10px;
-
-       border-top-right-radius:10px;
+       
 }    
 /*Disign for mobile phones*/
 @media(max-width:767px){
