@@ -673,7 +673,8 @@ nav .fa{
              color:#000; 
              font-size:22px; 
              float:left; 
-             margin:10px;
+             
+             margin-top:15px;
              margin-right:10px;
              cursor:pointer;
           }
