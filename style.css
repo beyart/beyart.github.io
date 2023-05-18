@@ -17,7 +17,7 @@ html,body{
    height:15vh;
    position:absolute;
    top:0;
-   background:#ABC270;           
+   background:#ADC270;           
 }
 .video-wrapper{
   /* Telling our absolute positioned video to 
@@ -672,8 +672,9 @@ nav .fa{
              color:#000; 
              font-size:22px; 
              float:left; 
-             margin:10px;
-             margin-right:10px;
+             margin-top:20px;
+              
+             margin-left:10px;
              cursor:pointer;
           }
           .prevy{
@@ -735,7 +736,7 @@ nav .fa{
           .sub-header{
              height:20vh;
              width:100%;
-             background:#ABC270;
+             background:#ADC270;
           }
           .header-icons{
              display:flex; 
@@ -745,7 +746,7 @@ nav .fa{
              height:auto;
              justify-content:space-between;
              background:/*#4285F4#2B886D#A44D01*/;
-             top:8vh;
+             top:50px;
           }
           .header-icons a{
             text-decoration:none;
@@ -764,7 +765,7 @@ nav .fa{
          }   
              
           .header-icons .fa:hover{
-             color:grey;
+             color:blue;
          }
            .largescreen .fa{
              display:none;
