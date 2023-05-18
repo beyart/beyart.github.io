@@ -17,7 +17,7 @@ html,body{
    height:15vh;
    position:absolute;
    top:0;
-   background:#ABC270;       
+   background:#ABC270;           
 }
 .video-wrapper{
   /* Telling our absolute positioned video to 
@@ -60,23 +60,14 @@ html,body{
     background: transparent;
     border:2px solid #ABC270;
 } 
-.content{   
-  
-
-
+.content{         
     padding:10px;
     margin-top:30px;
     width:100%;
     height:auto;
     border-bottom:3px solid lightgrey;
     margin-bottom:80px;
-}  
-.content h3{
-   padding:10px;
-   margin:0;
-   margin-bottom:10px;
-   
-}
+}     
 .sub-header h1{
     display:none;
     margin-top:30px;
@@ -168,7 +159,7 @@ nav input[type="submit"]{
 }
 .visit-button:hover{
      background:brown;   
-     border:1px solid #ABC270; 
+     border:1px solid orange; 
      transition:4s;     
      color:white; 
      text-decoration:; 
@@ -178,7 +169,7 @@ nav .fa{
 }
 .imgx{
      height:100px;
-     width:250px;
+     width:200px;
      position:absolute;
      top:10px;
      right:10px;
@@ -204,7 +195,7 @@ nav .fa{
      display:none;
 }
 /* Gallery card */
-.Gallery-group{
+/*.Gallery-group{
      width:100%;
      min-height: 200px;
      height: auto;
@@ -220,24 +211,22 @@ nav .fa{
      margin-right:10px;
      margin-left:10px;
      border:2px solid #ABC270;
-     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
      border-radius:10px;
-     overflow-x: auto;
 } 
 .Gallery-card-img{
-     width:100%;
-     height:200px;
+     width: 100%;
+     height: 200px;
      object-fit: cover;
      border-top-left-radius:10px;
      border-top-right-radius:10px;
-}
+}*/
 .Gallery-card-name{ 
      text-align:center;
      font-size: 14px;
      /*text-transform: capitalize;*/
      padding:8px;
-     color:#ABC270;
-     font-weight:thin;
+     color:brown;
+     font-weight:bold;
 }
 .footer{
      /* background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("images/contact_img.jpg");
@@ -641,11 +630,25 @@ nav .fa{
        border-bottom-left-radius:5px ; 
        border-top-right-radius:5px ;   
 }
-
-.prevy{
-   display:none;
+   
+#slider{
+       margin:50px auto;
+       width:250px;
+       height:200px;
+       padding:5px;
+       box-shadow: 0 0 20px rgba(0,0,0,1);
+       position:relative;
 }
-     
+.slide{
+       list-style:none;
+}
+#slider>li{
+       position:absolute;
+       top:5px;
+       left:5px;
+       right:5px;
+       bottom:5px;
+}    
 /*Disign for mobile phones*/
 @media(max-width:767px){
         *{
@@ -654,10 +657,7 @@ nav .fa{
          .imgx{
              height:60px;
              width:160px;
-             
-             position:absolute;
-             top:10px;
-             right:10px;
+
          }
          .welcome-note h1{
              font-size:18px;
@@ -690,10 +690,10 @@ nav .fa{
              font-size:22px; 
              float:left; 
              margin:10px;
-             
+             margin-right:10px;
              cursor:pointer;
           }
-          /*.prevy{
+          .prevy{
              display:block;
              padding:;
              color:#000;
@@ -702,7 +702,7 @@ nav .fa{
              margin-left:10px;
              margin-top:10px;
              cursor:pointer;               
-          }*/
+          }
           .nav-links ul{
              padding:30px;
           }
@@ -748,7 +748,7 @@ nav .fa{
           .services h2{
              font-size:20px;
           }
-           
+            
           .sub-header{
              height:20vh;
              width:100%;
@@ -757,8 +757,4 @@ nav .fa{
            .largescreen .fa{
              display:none;
            }
-           .footer{
-             font-size:13px;
-           }
-          
 }
