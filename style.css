@@ -645,8 +645,12 @@ nav .fa{
 .slide{
        list-style:none;
        object-fit: cover;
-       border-top-left-radius:10px;
-       border-top-right-radius:10px;
+        
+}
+.slide img{
+       width:350px;
+       height:300px;
+       border-radius:10px;
 }
 
 #slider>li{
