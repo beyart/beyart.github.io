@@ -20,8 +20,8 @@ body{
    color: #000; 
 } 
 .theme-dark { 
-    background-color: #000; 
-    color: #fff;
+    background-color:#222222; 
+    color:#fff;
 } 
 .sub-header{
    width:100%;
@@ -69,7 +69,7 @@ body{
     font-weight:bold;
     Padding:10px;
     background: transparent;
-    border:2px solid gold;
+    border:2px solid #fff;
 } 
 .content{         
     padding:10px;
@@ -78,7 +78,7 @@ body{
     height:auto;
     border-bottom:2px solid lightgrey;
     margin-bottom:80px;
-    background:#2222222;
+    background:#222222;
 }  
 .content h3{
     color:#fff;
@@ -397,7 +397,7 @@ nav .fa{
 }        
 .cnt{
       margin:60px auto; 
-      width:100%;
+      width:80%;
       height:400px;
       /*background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("city.jpg");
       background-size:cover;
@@ -716,7 +716,7 @@ nav .fa{
              display:flex; 
              position:absolute;
              width:100%;
-             padding:2% 6%; 
+             padding:2% 5%; 
              height:auto;
              justify-content:space-between;
              background:transparent;
