@@ -64,19 +64,19 @@ body{
     left:35%;
     transform: translate(-50%, -50%);
     text-align:left;
-    color: #fff;
+    color:#fff;
     font-size:25px;
     font-weight:bold;
     Padding:10px;
     background: transparent;
-    border:2px solid #222222;
+    border:2px solid gold;
 } 
 .content{         
     padding:10px;
     margin-top:30px;
     width:100%;
     height:auto;
-    border-bottom:3px solid lightgrey;
+    border-bottom:2px solid lightgrey;
     margin-bottom:80px;
     background:#2222222;
 }  
@@ -402,11 +402,11 @@ nav .fa{
       /*background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("city.jpg");
       background-size:cover;
       background-position:center;*/
-      border-radius:5px;
+      border-radius:;
       padding:40px;
       text-align:center;
       background-repeat:no-repeat;
-      background:#222222;
+      background:#444;
 }
 .cnt h1{
       color:#fff/*#009688*/; 
