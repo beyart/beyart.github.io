@@ -205,7 +205,7 @@ nav .fa{
      height:auto;
      margin-right:10px;
      margin-left:10px;
-     border:2px solid #333;
+     border:2px solid #fff;
      border-radius:10px;
 } 
 .Gallery-card-img{
@@ -706,7 +706,7 @@ nav .fa{
           .sub-header{
              height:20vh;
              width:100%;
-             background:#ADC241;
+             background:#333333;
           }
           .header-icons{
              display:flex; 
@@ -726,7 +726,7 @@ nav .fa{
             color:#000;
          }
          .header-icons .fa{
-            color:#000;
+            color:#fff;
             font-size:22px;
             font-weight:normal;
             padding:5px;
@@ -753,10 +753,10 @@ nav .fa{
              margin-bottom:20px;
              font-weight:600;
              color:#fff;
-             font-size:15px;
+             font-size:13px;
          }
          .footer p{
              color:#fff; 
-             font-size:15px;
+             font-size:13px;
         }
 }
