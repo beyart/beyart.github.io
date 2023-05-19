@@ -69,7 +69,7 @@ body{
     font-weight:bold;
     Padding:10px;
     background: transparent;
-    border:2px solid #333333;
+    border:2px solid #222222;
 } 
 .content{         
     padding:10px;
@@ -78,6 +78,7 @@ body{
     height:auto;
     border-bottom:3px solid lightgrey;
     margin-bottom:80px;
+    background:#2222222;
 }  
 .content h3{
     color:#fff;
@@ -405,7 +406,7 @@ nav .fa{
       padding:40px;
       text-align:center;
       background-repeat:no-repeat;
-      background:#111;
+      background:#222222;
 }
 .cnt h1{
       color:#fff/*#009688*/; 
@@ -628,7 +629,7 @@ nav .fa{
              position:absolute;
              top:80px;
              left:0;
-             background:#222; 
+             background:#222222; 
              z-index:2;
              width:200px;
              height:300px;
@@ -637,7 +638,7 @@ nav .fa{
              /*box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);*/
              border-radius:;
              overflow-y:auto;
-             color:fff;
+             color:#fff;
           }
              
           nav .fa{
@@ -715,7 +716,7 @@ nav .fa{
              display:flex; 
              position:absolute;
              width:100%;
-             padding:2% 2%; 
+             padding:2% 6%; 
              height:auto;
              justify-content:space-between;
              background:transparent;
