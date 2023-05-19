@@ -8,6 +8,9 @@ body{
    font-family: 'Montserrat', sans-serif;
    font-family: 'Source Sans Pro', sans-serif;
 }
+body{
+   background:#fff;
+}
 html,body{
    margin:0;
    padding:0;
@@ -25,7 +28,7 @@ html,body{
    height:15vh;
    position:absolute;
    top:0;
-   background:#ADC241;           
+   background:#fff;           
 }
 .video-wrapper{
   /* Telling our absolute positioned video to 
@@ -43,6 +46,7 @@ html,body{
    display: flex;
    align-items: center;
    justify-content: center;
+   border:2px solid lightgrey;
 }     
 .video-wrapper video{
    /** Simulationg background-size: cover */
@@ -66,7 +70,7 @@ html,body{
     font-weight:bold;
     Padding:10px;
     background: transparent;
-    border:2px solid #ABC270;
+    border:2px solid #fff;
 } 
 .content{         
     padding:10px;
@@ -75,7 +79,8 @@ html,body{
     height:auto;
     border-bottom:3px solid lightgrey;
     margin-bottom:80px;
-}     
+}  
+
 .sub-header h1{
     display:none;
     margin-top:30px;
@@ -182,23 +187,8 @@ nav .fa{
      top:10px;
      right:10px;
 }
-.footer{
-     width:100%;
-     padding:30px 0;
-     text-align:center;
-     background:#fff;         
-}
-.footer h4{
-     margin-top:25px;
-     margin-bottom:20px;
-     font-weight:600;
-     color:#000;
-     font-size:15px;
-}
-.footer p{
-     color:#000; 
-     font-size:12px;
-}
+{
+
 ::-webkit-scrollbar{
      display:none;
 }
@@ -218,7 +208,7 @@ nav .fa{
      height:auto;
      margin-right:10px;
      margin-left:10px;
-     border:2px solid #ABC270;
+     border:2px solid #000;
      border-radius:10px;
 } 
 .Gallery-card-img{
@@ -233,7 +223,7 @@ nav .fa{
      font-size: 14px;
      /*text-transform: capitalize;*/
      padding:8px;
-     color:brown;
+     color:#333;
      font-weight:bold;
 }
 .footer{
@@ -406,12 +396,12 @@ nav .fa{
 }        
 .cnt{
       margin:60px auto; 
-      width:100%;
+      width:80%;
       height:400px;
       /*background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("city.jpg");
       background-size:cover;
       background-position:center;*/
-      border-radius:10px;
+      border-radius:;
       padding:40px;
       text-align:center;
       background-repeat:no-repeat;
@@ -657,11 +647,11 @@ nav .fa{
              display:block;
          }
          .nav-links>ul>li>a{
-             color:#333;
+             color:#fff;
          }
          .nav-links{
              position:absolute;
-             top:70px;
+             top:60px;
              left:0;
              background:#fff; 
              z-index:2;
@@ -750,7 +740,7 @@ nav .fa{
              display:flex; 
              position:absolute;
              width:100%;
-             padding:2% 2%; 
+             padding:2% 5%; 
              height:auto;
              justify-content:space-between;
              background:transparent;
@@ -779,5 +769,23 @@ nav .fa{
          }
            .largescreen .fa{
              display:none;
+         }
+         .footer{
+             width:100%;
+             padding:30px 0;
+             text-align:center;
+             background:#fff;  
+             font-size:13px;
+         }
+         .footer h4{
+             margin-top:25px;
+             margin-bottom:20px;
+             font-weight:600;
+             color:#000;
+             font-size:15px;
+         }
+         .footer p{
+             color:#000; 
+             font-size:12px;
          }
 }
