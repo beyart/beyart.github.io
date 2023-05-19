@@ -47,7 +47,7 @@ function autoScroll() {
     var theme = document.getElementById("theme");
     var currentTheme = theme.getAttribute("href");
 
-    if (currentTheme === "light-theme.css") {
+    if (currentTheme === "style.css") {
         theme.href = "dark-theme.css";
     } else {
         theme.href = "light-theme.css";
