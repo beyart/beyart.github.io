@@ -43,33 +43,11 @@ function autoScroll() {
   }, 5000);
 }
 
-function enlargeImage(img) {
-  // Get the current size of the image.
-  var width = img.width;
-  var height = img.height;
-
-  // Create a new image element with the same dimensions as the original image.
-  var enlargedImage = document.createElement("img");
-  enlargedImage.width = width;
-  enlargedImage.height = height;
-
-  // Set the src of the new image to the src of the original image.
-  enlargedImage.src = img.src;
-
-  // Create a new div element to contain the enlarged image.
-  var enlargedImageDiv = document.createElement("div");
-  enlargedImageDiv.style.width = width + "200px";
-  enlargedImageDiv.style.height = height + "150px";
-  enlargedImageDiv.style.position = "absolute";
-  enlargedImageDiv.style.top = "50%";
-  enlargedImageDiv.style.left = "50%";
-  enlargedImageDiv.style.transform = "translate(-50%, -50%)";
-
-  // Add the enlarged image to the div element.
-  enlargedImageDiv.appendChild(enlargedImage);
-
-  // Show the div element.
-  enlargedImageDiv.style.display = "block";
-}
+ window.onload = function() { 
+   var themeSwitcher = document.querySelector('.theme-switcher'); 
+   themeSwitcher.addEventListener('click', function() { var currentTheme = document.body.className; 
+   document.body.className = currentTheme === 'theme-light' ? 'theme-dark' : 'theme-light'; 
+ }); 
+ }
 
  
