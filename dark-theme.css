@@ -12,12 +12,15 @@ html,body{
    margin:0;
    padding:0;
 }
+body{
+   background:#333444;
+}
 .sub-header{
    width:100%;
    height:15vh;
    position:absolute;
    top:0;
-   background:brown;           
+   background:#222222;           
 }
 .video-wrapper{
   /* Telling our absolute positioned video to 
@@ -398,7 +401,7 @@ nav .fa{
 }        
 .cnt{
       margin:60px auto; 
-      width:100%;
+      width:80%;
       height:400px;
       /*background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("city.jpg");
       background-size:cover;
@@ -407,10 +410,10 @@ nav .fa{
       padding:40px;
       text-align:center;
       background-repeat:no-repeat;
-      background:aliceblue;
+      background:#444444;
 }
 .cnt h1{
-      color:brown/*#009688*/; 
+      color:#ffffff/*#009688*/; 
       margin-bottom:40px;
       padding:0;
 }
@@ -418,7 +421,7 @@ nav .fa{
        width:100%;
        padding:30px 0;
        text-align:center;
-       background:brown;
+       background:#444444;
        border-top:3px solid lightgrey;
 }
 .footer h4{
@@ -735,7 +738,7 @@ nav .fa{
           .sub-header{
              height:20vh;
              width:100%;
-             background:brown;
+             background:#222222;
           }
           .header-icons{
              display:flex; 
@@ -767,7 +770,7 @@ nav .fa{
          }   
              
           .header-icons .fa:hover{
-             color: grey;
+             color:tomato;
          }
            .largescreen .fa{
              display:none;
