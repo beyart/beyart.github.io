@@ -682,7 +682,7 @@ nav .fa{
              float:left; 
              margin-top:20px;
               
-             margin-left:10px;
+             margin-left:5px;
              cursor:pointer;
           }
           .prevy{
@@ -754,7 +754,7 @@ nav .fa{
              height:auto;
              justify-content:space-between;
              background:transparent;
-             top:80px;
+             top:70px;
              margin:10px;
              
           }
