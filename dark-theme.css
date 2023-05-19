@@ -746,8 +746,9 @@ nav .fa{
              justify-content:space-between;
              background:/*#4285F4#2B886D#A44D01*/;
              top:80px;
-             left:10px;
-             right:10px;
+             
+            
+             margin:10px;
           }
           .header-icons a{
             text-decoration:none;
