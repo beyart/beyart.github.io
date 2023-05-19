@@ -641,7 +641,7 @@ nav .fa{
    
  
 /*Disign for mobile phones*/
-@media(max-width:767px){
+@media(max-width:768px){
         *{
               box-sizing:border-box; 
          }
@@ -755,8 +755,8 @@ nav .fa{
              justify-content:space-between;
              background:transparent;
              top:80px;
-             left:10px;
-             right:10px;
+             margin:10px;
+             
           }
           .header-icons a{
             text-decoration:none;
