@@ -50,7 +50,7 @@ function autoScroll() {
     if (currentTheme === "style.css") {
         theme.href = "dark-theme.css";
     } else {
-        theme.href = "light-theme.css";
+        theme.href = "style.css";
     }
 }
 
