@@ -647,7 +647,7 @@ nav .fa{
              display:block;
          }
          .nav-links>ul>li>a{
-             color:#fff;
+             color:#333;
          }
          .nav-links{
              position:absolute;
@@ -672,7 +672,7 @@ nav .fa{
              float:left; 
              margin-top:20px;
               
-             margin-left:5px;
+             margin-left:10px;
              cursor:pointer;
           }
           .prevy{
