@@ -13,7 +13,7 @@ html,body{
    padding:0;
 }
 body{
-   background:#222;
+   background:#333;
 }
 .theme-light { 
    background-color: #fff; 
@@ -28,7 +28,7 @@ body{
    height:15vh;
    position:absolute;
    top:0;
-   background:#222222;           
+   background:#333;           
 }
 .video-wrapper{
   /* Telling our absolute positioned video to 
@@ -173,8 +173,8 @@ nav input[type="submit"]{
      margin-top:30px;
 }
 .visit-button:hover{
-     background:brown;   
-     border:1px solid orange; 
+     background:#4285F4;   
+     border:1px solid skyblue; 
      transition:4s;     
      color:white; 
      text-decoration:; 
@@ -237,7 +237,7 @@ nav .fa{
      position:static;
      bottom:0;
      font-weight:normal;
-     background:#222222;
+     background:#333;
      text-align:center;
 }     
 .footer-body{
@@ -614,7 +614,7 @@ nav .fa{
          .imgx{
              height:60px;
              width:160px;
-
+             border-radius:10px;
          }
          .welcome-note h1{
              font-size:18px;
@@ -635,7 +635,7 @@ nav .fa{
              height:300px;
              text-align:left;
              display:none;
-             *box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+             box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
              border-radius:;
              overflow-y:auto;
              color:#fff;
@@ -750,7 +750,7 @@ nav .fa{
              width:100%;
              padding:30px 0;
              text-align:center;
-             background:#222;  
+             background:#333;  
              font-size:13px;
          }
         .footer h4{
