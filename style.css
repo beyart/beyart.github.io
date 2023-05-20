@@ -480,6 +480,16 @@ nav .fa{
        margin:auto;
        padding:12px 0;
 }
+.content-overview{
+       background:lightgrey;
+       padding:10px;
+}
+.content-overview img{
+       float:left;
+       border-radius:50%;
+       width:60px;
+       height:60px;
+}
 .blog-left{
        flex-basis:48%;
 }
