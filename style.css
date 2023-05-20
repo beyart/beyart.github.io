@@ -489,6 +489,12 @@ nav .fa{
        border-radius:50%;
        width:60px;
        height:60px;
+       margin-right:10pxpx;
+       margin-bottom:10px;
+}
+.content-overview tt{
+       color:#00aa00;
+       font-size:18px;
 }
 .blog-left{
        flex-basis:48%;
