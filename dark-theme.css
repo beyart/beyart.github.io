@@ -13,14 +13,14 @@ html,body{
    padding:0;
 }
 body{
-   background:#222222;
+   background:#222;
 }
 .theme-light { 
    background-color: #fff; 
    color: #000; 
 } 
 .theme-dark { 
-    background-color:#222222; 
+    background-color:#222; 
     color:#fff;
 } 
 .sub-header{
@@ -78,7 +78,7 @@ body{
     height:auto;
     border-bottom:2px solid lightgrey;
     margin-bottom:80px;
-    background:#222222;
+
 }  
 .content h3{
     color:#fff;
@@ -629,13 +629,13 @@ nav .fa{
              position:absolute;
              top:80px;
              left:0;
-             background:#222222; 
+             background:#222; 
              z-index:2;
              width:200px;
              height:300px;
              text-align:left;
              display:none;
-             /*box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);*/
+             *box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
              border-radius:;
              overflow-y:auto;
              color:#fff;
@@ -648,7 +648,7 @@ nav .fa{
              float:left; 
              margin-top:20px;
               
-             margin-left:5px;
+             margin-left:10px;
              cursor:pointer;
           }
           .prevy{
