@@ -224,7 +224,7 @@ nav .fa{
      font-size: 14px;
      /*text-transform: capitalize;*/
      padding:8px;
-     color:#fff;
+     color:#4285F4;
      font-weight:bold;
 }
 .footer{
@@ -403,7 +403,7 @@ nav .fa{
       background-size:cover;
       background-position:center;*/
       border-radius:;
-      padding:40px;
+      padding:25px;
       text-align:center;
       background-repeat:no-repeat;
       background:#444;
