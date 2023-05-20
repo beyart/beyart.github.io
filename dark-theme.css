@@ -46,6 +46,7 @@ body{
    display: flex;
    align-items: center;
    justify-content: center;
+   border-bottom:2px solid lightgrey;
 }     
 .video-wrapper video{
    /** Simulationg background-size: cover */
