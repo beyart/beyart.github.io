@@ -119,7 +119,7 @@ nav input[type="submit"]{
     position:relative;         
 }
 .nav-links>ul>li>a{
-    color:#fff; 
+    color:#333; 
     text-decoration:none;
     font-size:20px;
 }     
