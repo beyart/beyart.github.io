@@ -798,7 +798,7 @@ nav .fa{
           }
             
           .sub-header{
-             height:20vh;
+             height:25vh;
              width:100%;
              background:#fff;
           }
@@ -810,7 +810,7 @@ nav .fa{
              height:auto;
              justify-content:space-between;
              background:transparent;
-             top:60px;
+             top:80px;
              margin:15px;
              
           }
