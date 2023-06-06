@@ -165,7 +165,7 @@ nav input[type="submit"]{
      display:inline-block; 
      color:grey; 
      background:transparent;
-     border:1px solid grey;
+     border:1px solid #4285F4;
      padding:12px 34px;
      text-decoration:none;
      font-size:13px;
