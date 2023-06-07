@@ -240,6 +240,7 @@ nav .fa{
      font-weight:normal;
      background:#333;
      text-align:center;
+     margin-top:100px
 }     
 .footer-body{
     /*column-count:3;
@@ -420,6 +421,7 @@ nav .fa{
        text-align:center;
        background:#fff;
        border-top:3px solid lightgrey;
+       margin-top:100px
 }
 .about-us{
        width:80%;
@@ -753,6 +755,7 @@ nav .fa{
              text-align:center;
              background:#333;  
              font-size:13px;
+             margin-top:100px
          }
         .footer h4{
              margin-top:25px;
