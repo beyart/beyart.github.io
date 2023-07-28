@@ -27,7 +27,7 @@ function typeText() {
     if (i == text.length) {
       clearInterval();
     }
-  }, 100);
+  }, 300);
 }
 
 //Code to execute gallery automation
