@@ -78,7 +78,13 @@ html,body{
     font-weight:bold;
     Padding:10px;
     background: transparent;
-    border:2px solid #fff;
+    border-left:3px solid #4285F4;
+    border-right:2px solid #fff;
+    border-bottom:2px solid #fff;
+    bottom-top:2px solid #fff;
+
+
+
 } 
 .content{         
     padding:10px;
