@@ -232,7 +232,7 @@ nav .fa{
      color:#4285F4;
      font-weight:bold;
 }
-.Gallery-card-img:hover{
+.Gallery-card:hover{
    background:gold;
    color:#222;
    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
