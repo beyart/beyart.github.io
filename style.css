@@ -78,11 +78,11 @@ html,body{
     font-weight:bold;
     Padding:10px;
     background: transparent;
-    border-left:3px solid #4285F4;
+    border-left:4px solid #4285F4;
     border-right:2px solid #fff;
     border-bottom:2px solid #fff;
     border-top:2px solid #fff;
-
+    border-radius:10px;
 } 
 .content{         
     padding:10px;
