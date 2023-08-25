@@ -122,7 +122,7 @@ nav input[type="submit"]{
 }
 .nav-links{
     flex:1;
-    text-align:center;
+    text-align:left;
 }
 .nav-links>ul>li{
     list-style:none;
