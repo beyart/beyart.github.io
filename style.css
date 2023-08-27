@@ -217,7 +217,7 @@ nav .fa{
 .Gallery-card{
      flex: 0 0 auto;
      max-width:100%;
-     height:auto;
+     height:400px;
      margin-right:10px;
      margin-left:10px;
      border:2px solid #000;
