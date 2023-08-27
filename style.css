@@ -123,12 +123,14 @@ nav input[type="submit"]{
 .nav-links{
     flex:1;
     text-align:left;
+    margin-left:5px;
 }
 .nav-links>ul>li{
     list-style:none;
     display:inline-block; 
     padding:8px 12px; 
-    position:relative;         
+    position:relative;
+    
 }
 .nav-links>ul>li>a{
     color:#333; 
