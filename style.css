@@ -280,7 +280,6 @@ nav .fa{
      justify-content:space-between;
      padding-right:10px;
      text-align:center;
-     width:50%;
      margin:auto;
      margin-top:50px;
      margin-bottom:80px;
@@ -288,6 +287,7 @@ nav .fa{
 .footer-icons .fa{
      color:#000;
      font-size:20px;
+     text-align:center;
      padding:5px;
 }
 .footer-icons a{
