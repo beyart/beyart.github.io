@@ -128,7 +128,7 @@ nav input[type="submit"]{
 .nav-links>ul>li{
     list-style:none;
     display:inline-block; 
-    padding:4px 8px; 
+    padding:8px 12px; 
     position:relative;
     
 }
