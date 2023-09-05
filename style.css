@@ -210,13 +210,9 @@ nav .fa{
 }
 /* Gallery card */
 .Gallery-group{
-     width:50%;
-     min-height:200px;
-     height: auto;
-     display: flex;
-     flex-wrap: nowrap;
-     overflow-x: auto;
-     margin-bottom:20px;
+     width:80%;
+     margin:auto;
+     
 }
 .Gallery-card{
      max-width:100%;
