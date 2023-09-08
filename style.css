@@ -210,9 +210,9 @@ nav .fa{
 }
 .home_content{
    width:100%;
-   margin:auto;
+   margin:80px 60px;
    padding:20px;
-   margin-top:80px;
+    
 }
 .home_content-col{
    flex-basis:48%;
@@ -431,7 +431,8 @@ nav .fa{
 .cnt h1{
       color:brown/*#009688*/; 
       margin-bottom:20px;
-      padding:0;
+      padding:50px;
+      text-align:center;
 }
 .footer{
        width:100%;
