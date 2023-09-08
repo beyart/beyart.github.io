@@ -759,6 +759,7 @@ nav .fa{
              overflow-x: auto;
              margin-bottom:20px;
           }
+          /*
           .Gallery-card{
               flex: 0 0 auto;
               max-width:100%;
@@ -778,11 +779,11 @@ nav .fa{
            .Gallery-card-name{ 
               text-align:center;
               font-size: 14px;
-             /*text-transform: capitalize;*/
+              text-transform: capitalize;
               padding:8px;
               color:#333;
               font-weight:bold;
-           }
+           }*/
            .cnt h1{
              font-size:24px;
           }
