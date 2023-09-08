@@ -210,7 +210,7 @@ nav .fa{
 }
 .home_content{
    width:100%;
-   margin:auto;
+   margin:15px;
    padding:20px;
     
 }
@@ -228,7 +228,6 @@ nav .fa{
      width:100%;
      height:400px;
      margin-right:10px;
-     margin-left:10px;
      border:2px solid #000;
      border-radius:10px;
      
@@ -241,7 +240,7 @@ nav .fa{
      border-top-right-radius:10px;
 }
 .Gallery-card-name{ 
-     text-align:center;
+     text-align:left;
      font-size: 14px;
      /*text-transform: capitalize;*/
      padding:8px;
