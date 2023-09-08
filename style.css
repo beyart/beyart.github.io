@@ -208,6 +208,15 @@ nav .fa{
 ::-webkit-scrollbar{
      display:none;
 }
+.home_content{
+   width:100%;
+   margin:auto;
+   margin-top:80px;
+}
+.home_content-col{
+   flex-basis:48%;
+   padding:30px 2px;  
+}
 /* Gallery card */
 .Gallery-group{
      width:100%;
