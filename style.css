@@ -184,7 +184,7 @@ nav input[type="submit"]{
      font-size:13px;
      position:relative;
      cursor:pointer;
-     margin-top:30px;
+     margin-bottom:30px;
 }
 .visit-button:hover{
      background:brown;   
