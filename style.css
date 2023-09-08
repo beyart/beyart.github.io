@@ -215,8 +215,7 @@ nav .fa{
     
 }
 .home_content-col{
-   flex-basis:48%;
-   padding:30px 2px;  
+   flex-basis:48%;    
 }
 /* Gallery card */
 .Gallery-group{
