@@ -215,7 +215,9 @@ nav .fa{
     
 }
 .home_content-col{
-   flex-basis:48%;    
+   flex-basis:48%;
+   width:100%;
+   height:auto;
 }
 /* Gallery card */
 .Gallery-group{
@@ -428,7 +430,7 @@ nav .fa{
 }
 .cnt h1{
       color:brown/*#009688*/; 
-      margin-bottom:20px;
+      margin-bottom:px;
       padding:50px;
       text-align:center;
 }
