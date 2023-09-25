@@ -180,11 +180,11 @@ nav .fa{
 .Gallery-container{
     display: flex;
     flex-wrap: nowrap;
-    overflow-x: auto;
+    overflow-x:auto;
     margin-bottom:20px;
 }
 .Gallery-card{
-     width:200px;
+     width:250px;
      height:300px;
      margin-right:15px;
      border:2px solid #00aa00;
