@@ -5,22 +5,21 @@
 html,body{
     margin:0;
     padding:0;
-    background:#333;
 }
 .header{
    width:100%;
    height:auto;
    position:relative;
    top:0;
-   background:#333; 
+   background:#fff; 
 }
 .sub-header{
    width:100%;
    height:20vh;
    position:relative;
    top:0;
-   background:#333;
-   border-bottom: 2px solid #fff;
+   background:#fff;
+   border-bottom: 2px solid lightgrey;
 }
 .video-wrapper{
   /* Telling our absolute positioned video to 
@@ -66,7 +65,7 @@ html,body{
 } 
 .all_links{
     position: absolute;
-    background:#333/*#d4af37*/;
+    background:#fff/*#d4af37*/;
     height:20vh;
     width:100%;
     top: 0; 
@@ -91,7 +90,7 @@ nav{
     
 }
 .nav-links>ul>li>a{
-    color:#fff; 
+    color:#333; 
     text-decoration:none;
     font-size:22px;
 }     
@@ -108,7 +107,7 @@ nav .fa{
 }
 .search_container{
     margin:25px;
-    border: 1px solid #fff;
+    border: 1px solid lightgrey;
     border-bottom-right-radius:20px;
     border-top-right-radius:20px;
 }
@@ -169,9 +168,6 @@ nav .fa{
     padding: 15px;
     margin:25px;
 }
-.home_content-col h3{
-    color:white;
-}
 .home_content-col h1{
     margin-top: 80px;
 }
@@ -191,9 +187,9 @@ nav .fa{
      width:100%;
      height:300px;
      margin-right:15px;
-     border:2px solid gold;
+     border:2px solid #00aa00;
      border-radius:10px;
-     background:gold;
+     background:#00aa00;
      
 } 
 .Gallery-card-img{
@@ -208,7 +204,7 @@ nav .fa{
      font-size: 14px;
      /*text-transform: capitalize;*/
      padding:8px;
-     color:#000;
+     color:#fff;
      font-weight:normal;
 }
 .footer{ 
@@ -217,7 +213,7 @@ nav .fa{
      position:static;
      bottom:0; 
      font-weight:normal;
-     background:#333; 
+     background:#fff; 
      margin-top:100px;
      border-top: 2px solid lightgrey; 
 }     
@@ -228,7 +224,7 @@ nav .fa{
      margin-right: 15px;
 }
 .footer-body a{
-     color:#fff;
+     color:#000;
      text-decoration:none;
 }
 .footer-body ul{
@@ -253,12 +249,12 @@ nav .fa{
     
 }
 .footer-icons .fa{
-     color:#fff;
+     color:#000;
      font-size:20px;
      float:left; 
 }
 .footer-icons a{
-     color:#fff;
+     color:#000;
      text-decoration:none;
 }
 .footer-icons .fa:hover{
@@ -298,7 +294,7 @@ nav .fa{
 .about-col h3{ 
        padding:;
        margin:0;
-       color: #fff;
+       color: #333;
 }
 .about-col p{
        padding:; 
@@ -361,7 +357,7 @@ nav .fa{
        padding:0;
 }
 .contact-col div h6{
-       color:#fff;
+       color:#555;
        font-weight:400; 
        font-size:20px;
        margin:10px;
@@ -463,13 +459,13 @@ nav .fa{
              display:block;
          }
          .nav-links>ul>li>a{
-             color:#fff;
+             color:#333;
          }
          .nav-links{
              position:absolute;
              top:50px;
              right:0;
-             background:#222; 
+             background:#fff; 
              z-index:2;
              width:200px;
              height:280px;
@@ -482,7 +478,7 @@ nav .fa{
              
           nav .fa{
              display:block;
-             color:#fff; 
+             color:#000; 
              font-size:22px; 
              float:right; 
              margin-top:20px;
@@ -514,8 +510,7 @@ nav .fa{
           .show{
              display:block;
           }
-          .content{  
-             background: #333;
+          .content{         
              padding:10px;
              margin-top:30px;
              width:100%;
@@ -552,14 +547,14 @@ nav .fa{
           .sub-header{
              height:25vh;
              width:100%;
-             background:#333;
+             background:#fff;
           }
            
          .footer{
              width:100%;
              padding:30px 0;
              text-align:center;
-             background:#333;  
+             background:#fff;  
              font-size:13px;
              margin-top:100px
          }
@@ -567,7 +562,7 @@ nav .fa{
              margin-top:25px;
              margin-bottom:20px;
              font-weight:600;
-             color:#fff;
+             color:#000;
              font-size:15px;
          }
          .footer p{
@@ -582,7 +577,7 @@ nav .fa{
         
         }
         .footer-icons .fa{
-           color:#fff;
+           color:#000;
            font-size:20px;
            float:left;
         }
@@ -609,10 +604,10 @@ nav .fa{
           .header-icons a{
             text-decoration:none;
             font-size:15px;
-            color:#fff;
+            color:#333;
          }
          .header-icons .fa{
-            color:#fff;
+            color:#333;
             font-size:20px;
             font-weight:normal;
             padding:5px;

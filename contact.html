@@ -1,82 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-   <title>Webpage for Arts and Design</title>
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
-   <meta charset="UTF-8" name="viewport" content="width:device-width, initial-scale=1"/>
-   <link rel="stylesheet" type="text/css" href="style.css"/>
-
-     <script type="text/javascript">
-    //javascript code.... 
-         function backTotop() {
-             document.documentElement.scrollTop=0; 
-         }
-   </script>
-   <script src="main.js"></script>
-</head>
-<body>
-      <section class="">
-            <!--<video playsinline autoplay muted loop poster="https://assets.codepen.io/6093409/river.jpg">
-             <source src="background_video.mp4" type="video/mp4">
-           </video>-->
-          <div class="sub-header">
-             <a href="index.html" class="logo"><img src="logo.png" class="imgx"/></a>
-          <nav>   
-     
-             <div class="nav-links" id="nav-link">
-                   
-                    <ul>
-                       <li><a href="index.html">Home</a></li>
-                       <li><a href="blog.html">Blog</a></li>
-                       <li><a href="services.html">Services</a></li>
-                       <li><a href="contact.html" class="active">Contact Us</a></li>
-                       <li><a href="about.html">About Us</a></li>
-                    </ul>
-             </div>
-                
-              <i class="fa fa-bars icon" onclick="myFunction()"></i> 
-        </nav>
-        </div> 
-        <div  class="header-icons" >
-           <a href="index.html"><i class="fa fa-home"></i></a>
-           <i class="fa fa-adjust" onclick="toggleTheme()"></i>
-           <a href="#"><i class="fa fa-language"></i></a> 
-           <a href="#"><i class="fa fa-search"></i></a>
-        </div>
-         <div class="text-box">
-          
-        </div> 
-     </section> 
-     <section class="contact-us">
-          
-           <p>For any queries or concerns please feel free to contact Us.
-            </p>
+<html>
+    <head>
+        <title>Contact us</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+        <meta name="viewport" content="width:device-width, initial-scale=1"/>
+        <link rel="stylesheet" href="main.css">
+        <script src="jquery-3.2.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ResponsiveSlides.js/1.55/responsiveslides.min.js"></script>
+        <script src="main.js"></script>
+    </head>
+    <body onload="typeText()" oncontextmenu="return false">
+         <section class="sub-header">
+             <div class="all_links">
+                 <a href="index.html" class="logo"><img src="logo.png" class="imgx"/></a>
+                 <nav>             
+                    <div class="nav-links" id="nav-link">
+                       <ul>
+                         <li><a href="index.html">Home</a></li>
+                         <li><a href="blog.html">Blog</a></li>
+                         <li><a href="services.html">Services</a></li>
+                         <li><a href="contact.html" class="active">Contact us</a></li>
+                         <li><a href="about.html">About us</a></li> 
+                       </ul>
+                     </div>
+                   <div>
+                       <form method="POST" action="#">
+                           <div class="search_container">
+                              <input type="search" name="search" placeholder="search here...."/>
+                              <input type="submit" value="Search"/>
+                           </div>
+                       </form>
+                   </div>              
+                   <i class="fa fa-bars icon" onclick="myFunction()"></i>     
+                 </nav>\
+                 <div  class="header-icons" >
+                    <a href="index.html"><i class="fa fa-home active"></i></a>
+                    <i class="fa fa-adjust" onclick="toggleTheme()"></i>
+                    <a href="#"><i class="fa fa-language"></i></a> 
+                    <a href="#"><i class="fa fa-search"></i></a>
+                 </div>
+              </div>
+         </section>
+         <section class="contact-us"> 
+             <h2>Keep in touch with webarts technologies. Do not hesitate to call us or email us.</h2>
            <div class="row">
-               <div class="contact-col">
+               <div class="contact-col contact_extend">
                   <div>
                       <i class="fa fa-home"></i>
                       <span>
-                           <h6>Mombasa Road, naivas Supermarket</h6>
+                           <h6>Kenya, Mombasa-Nairobi Highway.</h6>
                       </span>
                  
                   </div>
                   <div>
                       <i class="fa fa-phone"></i>
                       <span>
-                           <h6>+254 703551387</hy>
-                           <p>Call us</p>
+                           <h6>+254 703551387</h6> 
                       </span>
                    
                   </div>
                   <div>
                       <i class="fa fa-envelope-o"></i>
                       <span>
-                           <h6>fedrickmbogho@gmail.com</h6>
-                           <p>Email us your query</p>
+                           <h6>fedrickmbogho@gmail.com</h6> 
                       </span>
                   </div>
+                  <div>
+                      <i class="fa fa-map-marker" aria-hidden="true"></i>
+                      <span>
+                          <h6>Location-based on current place of living.</h6>
+                      </span>
+                   </div>
                </div>
                <div class="contact-col">
+                  <h3>Kindly send us your queries and concerns through email. We strive to put you updated as soon as possible.</h3>
                   <form action="#">
                        <input type="text" name="name" placeholder="Enter your name" required/>
                        <input type="email" name="email" placeholder="Enter Email" required/> 
@@ -86,55 +83,49 @@
                   </form>
                </div>
            </div>
-     </section>
-    <section class="footer">
-     <div class="footer-col">
-        <div class="messeges">
-                                   
+         </section>
+         <section class="footer">
+              <div class="row">
+                 <div class="footer-body"> 
+                    <ul>
+                       <li><a href="contact.html">Contact us</a></li>
+                       <li><a href="about.html">About us</a></li>
+                       <li><a href="#">Support FAQ</a></li>
+                       <li><a href="#">Terms of Use</a></li> 
+                       <li><a href="#">Privacy Policy</a></li>
+                       <li><a href="#">Settings</a></li>
+                    </ul> 
+                 </div>
+                 <div class="footer-body">
+                    <ul>
+                       <li><a href="#">Blog</a></li>
+                       <li><a href="#">Articles</a></li>
+                       <li><a href="#">Community</a></li>
+                       <li><a href="#">Science and Tecnology</a></li> 
+                       <li><a href="#">Plants and Botany</a></li>
+                       <li><a href="#">Future concerns</a></li>
+                   </ul> 
+                 </div>
+                 <div class="footer-body new_style">
+                    <ul>
+                       <li><a href="#">Projects</a></li>
+                       <li><a href="#">Health and lifestyles</a></li>
+                       <li><a href="#">Climate change</a></li>
+                       <li><a href="#">Theology</a></li> 
+                       <li><a href="#">Landscaping designs</a></li>
+                       <li><a href="#">Data analysis and Artificial inteligence</a></li> 
+                   </ul> 
+                 </div>
              </div>
-        <div class="footer-body">
-             <ul>
-                   <li><a href="contact.html">Contact us</a></li>
-                   <li><a href="about.html">About us</a></li>
-                   <li><a href="#">Support FAQ</a></li>
-                  <li><a href="terms_of_use.html">Terms of Use</a></li> 
-                  <li><a href="privacy_policy.html">Privacy Policy</a></li>
-                 <li><a href="settings.html">Settings</a></li>
-                </ul> 
-        </div><br>
-        <div class="footer-body">
-             <ul>
-                   <li><a href="blog.html">Blog</a></li>
-                   <li><a href="articles.html">Articles</a></li>
-                   <li><a href="#">Community</a></li>
-                  <li><a href="#">Science and Tecnology</a></li> 
-                  <li><a href="#">Plants and Botany</a></li>
-                 <li><a href="settings.html">Future concerns</a></li>
-             </ul> 
-        </div>
-        <div class="footer-icons">
-         
-        <a href="http://www.facebook.com/Fred Rick/" target="_blank"><i class="fa fa-facebook-official"></i></a>
-        <a href="http://www.twitter.com/"><i class="fa fa-twitter-square"></i></a>
-        <a href="http://www.instagram.com/"><i class="fa fa-instagram"></i></a>
-        <a href="http://www.youtube.com/"><i class="fa fa-youtube-square"></i></a>
-          </div>
-          <div class="footer-copyrights">
-            <p>© Copyrights 2022-2023 Beyart| All<br> rights reserved.</p>
-          </div>
-        </div>
-</div>
-    </section>      
-      
-     <script type="text/javascript">
-           var navLinks=document.getElementById("nav-links");
-           function showMenu(){
-              navLinks.style.display="block";
-           }
-           function hideMenu(){
-              navLinks.style.display="none";
-           }
-     </script>
-           
-</body>
+            <div class="footer-icons">
+                <a href="http://www.facebook.com/Fred Rick/" target="_blank"><i class="fa fa-facebook-official"></i></a>
+                <a href="http://www.twitter.com/"><i class="fa fa-twitter-square"></i></a>
+                <a href="http://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+                <a href="http://www.youtube.com/"><i class="fa fa-youtube-square"></i></a>
+             </div>
+             <div class="footer-copyrights">
+                    <p>© Copyrights 2022-2023 Beyart| All<br> rights reserved.</p>
+             </div>
+         </section>
+    </body>
 </html>

@@ -1,141 +1,117 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-   <title>Webpage for Arts and Design</title>
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
-   <meta charset="UTF-8" name="viewport" content="width:device-width, initial-scale=1"/>
-   <link rel="stylesheet" type="text/css" href="style.css"/>
-
-     <script type="text/javascript">
-    //javascript code.... 
-         function backTotop() {
-             document.documentElement.scrollTop=0; 
-         }
-   </script>
-   <script src="main.js"></script>
-</head>
-<body>
-      <section class="video-wrapper">
-            <video playsinline autoplay muted loop poster="https://assets.codepen.io/6093409/river.jpg">
-             <source src="background_video.mp4" type="video/mp4">
-           </video>
-          <div class="sub-header">
-             <a href="index.html" class="logo"><img src="logo.png" class="imgx"/></a>
-          <nav>  
-             
-             <div class="nav-links" id="nav-link">
-                    
-                    <ul>
-                       <li><a href="index.html">Home</a></li>
-                       <li><a href="blog.html">Blog</a></li>
-                       <li><a href="services.html" class="active">Services</a></li>
-                       <li><a href="contact.html">Contact Us</a></li>
-                       <li><a href="about.html">About Us</a></li>
-                    </ul>
-             </div>
-              
-             <i class="fa fa-bars icon" onclick="myFunction()"></i>
-        </nav>
-        </div> 
-        <div  class="header-icons" >
-           <a href="index.html"><i class="fa fa-home"></i></a>
-           <i class="fa fa-adjust" onclick="toggleTheme()"></i>
-           <a href="#"><i class="fa fa-language"></i></a> 
-           <a href="#"><i class="fa fa-search"></i></a>
-        </div>
-         <div class="text-box">
-            
-        </div>
-     </section> 
-       
-     <section class="services"> 
-          <h2>Our Services</h2> 
-          <p>We offer the following quality services to our valued customers.</p>
+ <!DOCTYPE html>
+<html>
+    <head>
+        <title>Services</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+        <meta name="viewport" content="width:device-width, initial-scale=1"/>
+        <link rel="stylesheet" href="main.css">
+        <script src="jquery-3.2.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ResponsiveSlides.js/1.55/responsiveslides.min.js"></script>
+        <script src="main.js"></script>
+    </head>
+    <body onload="typeText()" oncontextmenu="">
+         <section class="sub-header">
+             <div class="all_links">
+                 <a href="index.html" class="logo"><img src="logo.png" class="imgx"/></a>
+                 <nav>             
+                    <div class="nav-links" id="nav-link">
+                       <ul>
+                         <li><a href="index.html">Home</a></li>
+                         <li><a href="blog.html">Blog</a></li>
+                         <li><a href="services.html" class="active">Services</a></li>
+                         <li><a href="contact.html">Contact us</a></li>
+                         <li><a href="about.html">About us</a></li> 
+                       </ul>
+                     </div> 
+                   <div>
+                       <form method="POST" action="#">
+                           <div class="search_container">
+                              <input type="search" name="search" placeholder="search here...."/>
+                              <input type="submit" value="Search"/>
+                           </div>
+                       </form>
+                   </div>              
+                   <i class="fa fa-bars icon" onclick="myFunction()"></i>
+                 </nav>
+                 <div  class="header-icons" >
+                    <a href="index.html"><i class="fa fa-home active"></i></a>
+                    <i class="fa fa-adjust" onclick="toggleTheme()"></i>
+                    <a href="#"><i class="fa fa-language"></i></a> 
+                    <a href="#"><i class="fa fa-search"></i></a>
+                 </div>
+              </div>
+         </section>
+         <section class="services">
+              <h2>Our Services</h2>  
           <div class="row">
-             <div class="services-col services-extend">
-              
-
-        
-              <i class="fa fa-code"></i><span><p>Web design and software development</p></span>
-   
-
-      
-
+             <div class="services-col services-extend"> 
+                 <i class="fa fa-code"></i>
+                 <img src="tech.jpg"/>
+                 <p>Web design and software development plus data analysis and artificial inteluigence.</p>
              </div>
              <div class="services-col services-extend">
-                 
-              
-              <i class="fa fa-laptop"></i><span><p>Computer solutions, windows installation, computer maintenance and phone repair</p></span>
-    
-                     
+                  <i class="fa fa-laptop"></i> 
+                  <img src="photography.jpg"/>
+                  <p>Computer solutions, windows 8, 10 and 11 installation, computer maintenance and phone repair</p>  
              </div>
          
-           </div>
+          </div>
            <div class="row">
-               <div class="services-col services-extend">
-      
-    
-       
-                <i class="fa fa-camera"></i><span><p>Photography and professional photo editing</p></span>
- 
-
-
+               <div class="services-col services-extend"> 
+                <i class="fa fa-camera"></i> 
+                <img src="alovera.jpg"/>
+                <p>Photography and professional photo editing</p>
              </div>
-             <div class="services-col services-extend">
-            
-                 <i class="fa fa-tree"></i><span><p>Lanscaping and Gardening</p></span>
+             <div class="services-col services-extend"> 
+                 <i class="fa fa-tree"></i> 
+                 <img src="photography.jpg"/>
+                 <p>Lanscaping and Gardening(grafting and budding fruit seedlings)</p> 
              </div>
            </div>
            
-             
-     </section>
-     <section class="footer">
-     <div class="footer-col">
-        <div class="messeges">
-                                   
+         </section>
+         <section class="footer">
+              <div class="row">
+                 <div class="footer-body"> 
+                    <ul>
+                       <li><a href="contact.html">Contact us</a></li>
+                       <li><a href="about.html">About us</a></li>
+                       <li><a href="#">Support FAQ</a></li>
+                       <li><a href="#">Terms of Use</a></li> 
+                       <li><a href="#">Privacy Policy</a></li>
+                       <li><a href="#">Settings</a></li>
+                    </ul> 
+                 </div>
+                 <div class="footer-body">
+                    <ul>
+                       <li><a href="#">Blog</a></li>
+                       <li><a href="#">Articles</a></li>
+                       <li><a href="#">Community</a></li>
+                       <li><a href="#">Science and Tecnology</a></li> 
+                       <li><a href="#">Plants and Botany</a></li>
+                       <li><a href="#">Future concerns</a></li>
+                   </ul> 
+                 </div>
+                 <div class="footer-body new_style">
+                    <ul>
+                       <li><a href="#">Projects</a></li>
+                       <li><a href="#">Health and lifestyles</a></li>
+                       <li><a href="#">Climate change</a></li>
+                       <li><a href="#">Theology</a></li> 
+                       <li><a href="#">Landscaping designs</a></li>
+                       <li><a href="#">Data analysis and Artificial inteligence</a></li> 
+                   </ul> 
+                 </div>
              </div>
-        <div class="footer-body">
-             <ul>
-                   <li><a href="contact.html">Contact us</a></li>
-                   <li><a href="about.html">About us</a></li>
-                   <li><a href="#">Support FAQ</a></li>
-                  <li><a href="terms_of_use.html">Terms of Use</a></li> 
-                  <li><a href="privacy_policy.html">Privacy Policy</a></li>
-                 <li><a href="settings.html">Settings</a></li>
-                </ul> 
-        </div><br>
-        <div class="footer-body">
-             <ul>
-                   <li><a href="blog.html">Blog</a></li>
-                   <li><a href="articles.html">Articles</a></li>
-                   <li><a href="#">Community</a></li>
-                  <li><a href="#">Science and Tecnology</a></li> 
-                  <li><a href="#">Plants and Botany</a></li>
-                 <li><a href="settings.html">Future concerns</a></li>
-             </ul> 
-        </div>
-        <div class="footer-icons">
-         
-        <a href="http://www.facebook.com/Fred Rick/" target="_blank"><i class="fa fa-facebook-official"></i></a>
-        <a href="http://www.twitter.com/"><i class="fa fa-twitter-square"></i></a>
-        <a href="http://www.instagram.com/"><i class="fa fa-instagram"></i></a>
-        <a href="http://www.youtube.com/"><i class="fa fa-youtube-square"></i></a>
-          </div>
-          <div class="footer-copyrights">
-            <p>© Copyrights 2022-2023 Beyart| All<br> rights reserved.</p>
-          </div>
-        </div>
-</div>
-    </section>  
-     <script type="text/javascript">
-           var navLinks=document.getElementById("nav-links");
-           function showMenu(){
-              navLinks.style.display="block";
-           }
-           function hideMenu(){
-              navLinks.style.display="none";
-           }
-     </script>
-           
-</body>
+             <div class="footer-icons">
+                <a href="http://www.facebook.com/Fred Rick/" target="_blank"><i class="fa fa-facebook-official"></i></a>
+                <a href="http://www.twitter.com/"><i class="fa fa-twitter-square"></i></a>
+                <a href="http://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+                <a href="http://www.youtube.com/"><i class="fa fa-youtube-square"></i></a>
+             </div>
+             <div class="footer-copyrights">
+                    <p>© Copyrights 2022-2023 Beyart| All<br> rights reserved.</p>
+             </div>
+         </section>
+    </body>
 </html>

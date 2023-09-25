@@ -18,8 +18,8 @@ window.onclick=function(event) {
 }
 
 //Automatic text typing code
-function typeText() {
-  var text = "Join Beyart today and experience technology at full capacity.";
+function typeText(){
+  var text = "Join Beyart today and experience technology at full capacity. We're building fast websites and android apps.";
   var i = 0;
   setInterval(function() {
     document.getElementById("typing-container").innerHTML += text.charAt(i);
@@ -47,10 +47,10 @@ function autoScroll() {
     var theme = document.getElementById("theme");
     var currentTheme = theme.getAttribute("href");
 
-    if (currentTheme === "style.css") {
+    if (currentTheme === "main.css") {
         theme.href = "dark-theme.css";
     } else {
-        theme.href = "style.css";
+        theme.href = "main.css";
     }
 }
 

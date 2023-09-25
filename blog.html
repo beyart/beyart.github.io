@@ -1,168 +1,91 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-   <title>Webpage for Arts and Design</title>
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
-   <meta charset="UTF-8" name="viewport" content="width:device-width, initial-scale=1"/>
-   <link rel="stylesheet" type="text/css" href="style.css"/>
-
-     <script type="text/javascript">
-    //javascript code.... 
-         function backTotop() {
-             document.documentElement.scrollTop=0; 
-         }
-   </script>
-   <script src="main.js"></script>
-</head>
-<body>
-       <section class="video-wrapper">
-            <video playsinline autoplay muted loop poster="https://assets.codepen.io/6093409/river.jpg">
-             <source src="background_video.mp4" type="video/mp4">
-           </video>
-          <div class="sub-header">
-             <a href="index.html" class="logo"><img src="logo.png" class="imgx"/></a>
-          <nav>  
-             
-             <div class="nav-links" id="nav-link">
-               
-                    <ul>
-                       <li><a href="index.html">Home</a></li>
-                       <li><a href="blog.html" class="active">Blog</a></li>
-                       <li><a href="services.html">Services</a></li>
-                       <li><a href="contact.html">Contact Us</a></li>
-                       <li><a href="about.html">About Us</a></li>
-                    </ul>
-             </div>
-               
-              <i class="fa fa-bars icon" onclick="myFunction()"></i> 
-        </nav>
-        </div>
-        <div  class="header-icons" >
-           <a href="index.html"><i class="fa fa-home"></i></a>
-           <i class="fa fa-adjust" onclick="toggleTheme()"></i>
-           <a href="#"><i class="fa fa-language"></i></a> 
-           <a href="#"><i class="fa fa-search"></i></a>
-        </div>
-        <div class="text-box">
-          
-        </div>
-        
-     </section> 
-     <section class="blog-content">
-         <div class="content-overview">
-            <img src="rick-image.jpg"/>
-            <tt>A 30minutes read. Published on 21<sup>st</sup>-May, 2023 By Fedrick Mbogho.</tt>
-             
-            <p><a href="#content1">1.Meditation and near-to-death exeperiences</a></p>
-            <p><a href="#content2">2.Citrus budding, orange seedling as a rootstock and lemon bud as a scion.</a></p>
-         </div>
-             <div class="row" id="content1">
-                <div class="blog-left">
-                     <h1>Meditation and near-to-death exeperiences</h1> 
-                     <p>Near-death experiences (NDEs) are experiences commonly occurring in life-threatening conditions. 
-                      They include feeling a sense of peace, of seeing a bright light and of transcending 
-                      space and time. Near to death experiences are closely linked with meditation. Meditation is the practice of thinking deeply or focusing 
-                      one's mind for a period of time. This can be done in silence or with the help of chanting, and is done for a number of reasons, starting
-                      from religious or spiritual purposes to a method for evoking relaxation.</p>
-                      <p>To explain them, near to death experiences has been suggested that they stem from psychological reactions to nearing death,
-                      a sort of wishful thinking in response to the perceived threat. Through meditation one can achieve near to death experiences where one sees themselves in a
-                      tunnel of unending bright light which is sometimes thought to occur when one is transforming from mortal to imortal. </p>
-                 </div>
-                 <div class="blog-right">
-                    <img src="meditation.jpg"/>
-
-                    <tt>Deepest world pictures/beyond nature.</tt>
-                 </div>
-             </div>
-             <div class="row" id="content2">
-                   <div class="blog-left">
-                   <h1>Citrus budding, orange seedling as a rootstock and lemon bud as a scion.</h1> 
-                   <p>A commercial citrus tree usually consists of two parts: the scion and the rootstock. The scion is the above-ground portion while the rootstock, 
-                      is lower portion of the tree. Rootstocks are usually grown right from seeds, but can also be grown from cuttings 
-                      or tissue culture depending on the method of propagation. The scion is joined to the rootstock through a process known as grafting, or budding, 
-                      which is shown in the picture below. So by using different cultivars for rootstock and scion, more desirable features can be incorporated into
-                      one single plant. <a href="https://edis.ifas.ufl.edu/publication/HS1309">see more</a></p>
-                   <a href="#example"><img src="footer.jpg"/> </a>
-                      <tt style="text-align:center">rick images/horticulture and art.</tt><br/><br/> 
-                   <p>The main advantages of budding and grafting is that it reduces the maturity period of a plant and improves plants resistance to diseases
-                      and drought.</p>
-                   <p>There are different types of budding, which include: inverted T bud and the chip bud. Budwood for budding the desired scion
-                      cultivar to the rootstock is obtained from healthy disease-free budwood mother plant. Usually Budding can be done anytime the rootstock
-                      is in active growth and the bark separates easily from the wood underneath, It is important to keep the stock plants well-watered and 
-                      fertilized before budding. The area to be budded is pruned clean of thorns and twigs before the process of budding.</p>
-                   <!--<video src="rick_art.mp4" controls preload loop poster="poster.jpg"></video>-->
-                   </div>
-                   <div class="blog-right">
-                     <div class="contact-box">
-                       <h3>Leave a comment</h3>
-                      <form action="#" method="POST" class="contact-form">
-                             <input type="text" name="text" placeholder="Enter Name"/>
-                             <input type="email" name="text" placeholder="Enter Email"/>
-                             <textarea rows="5" placeholder="leave your comment"></textarea>
-                             <button type="submit" class="visit-button red-btn">Post Comment</button>
+ <!DOCTYPE html>
+<html>
+    <head>
+        <title>Blog</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+        <meta name="viewport" content="width:device-width, initial-scale=1"/>
+        <link rel="stylesheet" href="main.css">
+        <script src="jquery-3.2.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ResponsiveSlides.js/1.55/responsiveslides.min.js"></script>
+        <script src="main.js"></script>
+    </head>
+    <body onload="typeText()" oncontextmenu="">
+         <section class="sub-header">
+             <div class="all_links">
+                 <a href="index.html" class="logo"><img src="logo.png" class="imgx"/></a>
+                 <nav>             
+                    <div class="nav-links" id="nav-link">
+                       <ul>
+                         <li><a href="index.html">Home</a></li>
+                         <li><a href="blog.html" class="active">Blog</a></li>
+                         <li><a href="services.html">Services</a></li>
+                         <li><a href="contact.html">Contact us</a></li>
+                         <li><a href="about.html">About us</a></li> 
+                       </ul>
+                     </div> 
+                   <div>
+                       <form method="POST" action="#">
+                           <div class="search_container">
+                              <input type="search" name="search" placeholder="search here...."/>
+                              <input type="submit" value="Search"/>
+                           </div>
                        </form>
-                     </div>
-                   </div>
-                </div>
-     </section> 
-     <section class="footer">
-     <div class="footer-col">
-        <div class="messeges">
-                                   
+                   </div>             
+                   <i class="fa fa-bars icon" onclick="myFunction()"></i>
+                 </nav>
+                 <div  class="header-icons" >
+                    <a href="index.html"><i class="fa fa-home active"></i></a>
+                    <i class="fa fa-adjust" onclick="toggleTheme()"></i>
+                    <a href="#"><i class="fa fa-language"></i></a> 
+                    <a href="#"><i class="fa fa-search"></i></a>
+                 </div>
+              </div>
+         </section>
+         <section class="about-us">
+              
+         </section>
+         <section class="footer">
+              <div class="row">
+                 <div class="footer-body"> 
+                    <ul>
+                       <li><a href="contact.html">Contact us</a></li>
+                       <li><a href="about.html">About us</a></li>
+                       <li><a href="#">Support FAQ</a></li>
+                       <li><a href="#">Terms of Use</a></li> 
+                       <li><a href="#">Privacy Policy</a></li>
+                       <li><a href="#">Settings</a></li>
+                    </ul> 
+                 </div>
+                 <div class="footer-body">
+                    <ul>
+                       <li><a href="#">Blog</a></li>
+                       <li><a href="#">Articles</a></li>
+                       <li><a href="#">Community</a></li>
+                       <li><a href="#">Science and Tecnology</a></li> 
+                       <li><a href="#">Plants and Botany</a></li>
+                       <li><a href="#">Future concerns</a></li>
+                   </ul> 
+                 </div>
+                 <div class="footer-body new_style">
+                    <ul>
+                       <li><a href="#">Projects</a></li>
+                       <li><a href="#">Health and lifestyles</a></li>
+                       <li><a href="#">Climate change</a></li>
+                       <li><a href="#">Theology</a></li> 
+                       <li><a href="#">Landscaping designs</a></li>
+                       <li><a href="#">Data analysis and Artificial inteligence</a></li> 
+                   </ul> 
+                 </div>
              </div>
-        <div class="footer-body">
-             <ul>
-                   <li><a href="contact.html">Contact us</a></li>
-                   <li><a href="about.html">About us</a></li>
-                   <li><a href="#">Support FAQ</a></li>
-                  <li><a href="terms_of_use.html">Terms of Use</a></li> 
-                  <li><a href="privacy_policy.html">Privacy Policy</a></li>
-                 <li><a href="settings.html">Settings</a></li>
-                </ul> 
-        </div><br>
-        <div class="footer-body">
-             <ul>
-                   <li><a href="blog.html">Blog</a></li>
-                   <li><a href="articles.html">Articles</a></li>
-                   <li><a href="#">Community</a></li>
-                  <li><a href="#">Science and Tecnology</a></li> 
-                  <li><a href="#">Plants and Botany</a></li>
-                 <li><a href="settings.html">Future concerns</a></li>
-             </ul> 
-        </div>
-        <div class="footer-icons">
-         
-        <a href="http://www.facebook.com/Fred Rick/" target="_blank"><i class="fa fa-facebook-official"></i></a>
-        <a href="http://www.twitter.com/"><i class="fa fa-twitter-square"></i></a>
-        <a href="http://www.instagram.com/"><i class="fa fa-instagram"></i></a>
-        <a href="http://www.youtube.com/"><i class="fa fa-youtube-square"></i></a>
-          </div>
-          <div class="footer-copyrights">
-            <p>© Copyrights 2022-2023 Beyart| All<br> rights reserved.</p>
-          </div>
-        </div>
-</div>
-    </section>
-      
-     <script type="text/javascript">
-           var navLinks=document.getElementById("nav-links");
-           function showMenu(){
-              navLinks.style.display="block";
-           }
-           function hideMenu(){
-              navLinks.style.display="none";
-           }
-        //hiding sections
-       function myfunction() {
-         var x = document.getElementById("content1");
-         if (x.style.display === "none") {
-              x.style.display = "block";
-          } else {
-              x.style.display = "none";
-          }
-        } 
-         
-     </script>
-                      
-</body>
+             <div class="footer-icons"> 
+                <a href="http://www.facebook.com/Fred Rick/" target="_blank"><i class="fa fa-facebook-official"></i></a>
+                <a href="http://www.twitter.com/"><i class="fa fa-twitter-square"></i></a>
+                <a href="http://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+                <a href="http://www.youtube.com/"><i class="fa fa-youtube-square"></i></a>
+             </div>
+             <div class="footer-copyrights">
+                    <p>© Copyrights 2022-2023 Beyart| All<br> rights reserved.</p>
+             </div>
+         </section>
+    </body>
 </html>
