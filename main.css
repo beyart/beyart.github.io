@@ -157,16 +157,15 @@ nav .fa{
      top:15px;
      left:10px;
 }
-.home_content{
-    position:;
+.home_content{ 
     height: auto;
-    padding: 15px; ;
+    padding:10px; ;
 }
 .home_content-col{
     flex-basis: 48%;
     border: 1px solid lightgrey;
     padding: 15px;
-    margin:25px;
+    margin:10px;
 }
 .home_content-col h1{
     margin-top: 80px;
