@@ -471,8 +471,7 @@ nav .fa{
              text-align:left;
              display:none;
              /*box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);*/
-             border-radius:; 
-              
+             border-radius:;      
           }
              
           nav .fa{
@@ -624,4 +623,7 @@ nav .fa{
           .header-icons .fa:hover{
              color:;
          }
+         .text-overlay {
+             font-size:18;
+         }      
 }
