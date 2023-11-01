@@ -175,7 +175,7 @@ nav .fa{
     background: aliceblue;
     text-align: left;
     padding: 20px;
-    
+    text-align:center;
 }
 .Gallery-container{
     display: flex;
