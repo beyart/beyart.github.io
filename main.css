@@ -190,7 +190,7 @@ nav .fa{
      border:2px solid lightgrey;
      border-radius:10px;
      background:lavender;
-     
+     box-shadow: 0 0 5px 0px rgba(0,0,0,0.2)
 } 
 .Gallery-card-img{
      width:200px;
